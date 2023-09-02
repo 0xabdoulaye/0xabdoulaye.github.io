@@ -6,75 +6,33 @@ title: WhoamI
 ---
 
 
-
-<h1 align="center">
-  👋 Hi, I'm <b>Abdoulaye Diallo</b>
-</h1>
-
-<h3 align="center">
-  A CyberSecurity Enthusiast from Guinea (Africa)
-</h3>
-
-<p align="center">
-  Welcome to my corner of the internet! Here you'll find my hacking journey, CTF writeups, insights into my daily learning, growth experiences, and more.
-</p>
-
-<p align="center">
-  <strong>🌱 I’m currently learning:</strong>
-  <ul>
-    <li>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Logo" width="20" height="20">
-      <a href="https://www.python.org/" target="_blank" rel="noreferrer">Python</a>
-    </li>
-    <li>
-      <img src="https://avatars.githubusercontent.com/u/155815?s=64&v=4" alt="OWASP Logo" width="20" height="20">
-      <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noreferrer">OWASP Top10</a>
-    </li>
-    <li>
-      <img src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dgsrzgjf4paklpbom6uj" alt="PortSwigger Logo" width="20" height="20">
-      <a href="https://www.webhacking.kr/" target="_blank" rel="noreferrer">Web Hacking</a>
-    </li>
-  </ul>
-</p>
+# 👋 Hi, I'm **Abdoulaye Diallo**
 
 
-<p align="center">
-  📫 How to reach me: <br>
-  <a href="mailto:nenandjabhata@proton.me">
-    <img src="" alt="Email" width="20" height="20"> <b> Email :</b>
-    nenandjabhata@proton.me
-  </a>
-  <br>
-  <a href="">
-    <img src="" alt="Discord" width="20" height="20"> <b>Discord :</b> blomann#3219
-  </a>
-</p>
+### A CyberSecurity Enthusiast from Guinea (Africa)
 
+Welcome to my corner of the internet! Here you'll find my hacking journey, CTF writeups, insights into my daily learning, growth experiences, and more.
 
+**🌱 I’m currently learning:**
+- [Python](https://www.python.org/)
+- [OWASP Top10](https://owasp.org/www-project-top-ten/)
+- [Web Hacking](https://www.webhacking.kr/)
 
-<h3 align="left">
-  Connect with me:
-</h3>
+📫 How to reach me:
+- **Email:** nenandjabhata@proton.me
+- **Discord:** blomann#3219
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Abdoulaye-blue?style=flat-square&logo=linkedin"></a>
-  <a href="https://www.twitter.com/bloman19/"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-Abdoulaye-blue?style=flat-square&logo=twitter"></a>
-  <a href="https://blackcybersec.xyz/"><img alt="Website" src="https://img.shields.io/badge/BlackCyberSec.xyz-blue?style=flat-square&logo=google-chrome"></a>
-  <a href="https://app.hackthebox.com/profile/1143465"><img alt="HackTheBox" src="https://img.shields.io/badge/HackTheBox-nenandjbhata-lime?style=flat-square&logo=hackthebox"></a>
-  <a href="https://tryhackme.com/p/bloman"><img alt="TryHackMe" src="https://img.shields.io/badge/TryHackMe-bloman-navy?style=flat-square&logo=tryhackme"></a>
-</p>
+### Connect with me:
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdoulaye-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7/)
+ [![Twitter](https://img.shields.io/badge/Twitter-Abdoulaye-blue?style=flat-square&logo=twitter)](https://www.twitter.com/bloman19/)
+[![Website](https://img.shields.io/badge/BlackCyberSec.xyz-blue?style=flat-square&logo=google-chrome)](https://blackcybersec.xyz/)
+ [![HackTheBox](https://img.shields.io/badge/HackTheBox-nenandjbhata-lime?style=flat-square&logo=hackthebox)](https://app.hackthebox.com/profile/1143465)
+ [![TryHackMe](https://img.shields.io/badge/TryHackMe-bloman-navy?style=flat-square&logo=tryhackme)](https://tryhackme.com/p/bloman)
 
-<h3 align="left">
-  Languages and Tools:
-</h3>
+### Languages and Tools:
+- [CSS3](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)
+- [HTML5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
+- [Linux](https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg)
+- [Python](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)
 
-<p align="center">
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-</p>
-
-<p align="center">
-  👀 I'm always looking for new projects to work on. If you have any ideas, let me know!
-</p>
+👀 I'm always looking for new projects to work on. If you have any ideas, let me know!
