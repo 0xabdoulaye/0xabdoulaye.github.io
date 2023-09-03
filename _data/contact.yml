@@ -13,23 +13,6 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
-
-- type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7'                  # Fill with your Linkedin homepage
-
-- type: HackTheBox
-  icon: 'fas fa-cube'
-  url: 'https://app.hackthebox.com/profile/1143465'
-
-- type: TryHackMe
-  icon: 'fas fa-cloud'
-  url: 'https://tryhackme.com/p/bloman'
-
-- type: Telegram
-  icon: 'fab fa-telegram'
-  url: 'https://t.me/nenandjabhata'
-
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
