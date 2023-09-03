@@ -45,7 +45,14 @@ social:
     - https://github.com/nenandjabhata # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7
+
+
+plugins:
+  - jekyll-google_search_console_verification_file
+
+google_search_console:
+  verification_file_code: 32d123f6345967a
 
 google_site_verification: # fill in to your verification string
 
@@ -53,7 +60,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: 'G-VEJZLBTFE2' # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
@@ -66,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

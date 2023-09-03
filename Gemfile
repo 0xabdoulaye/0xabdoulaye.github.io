@@ -26,3 +26,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
+
+gem "jekyll-google_search_console_verification_file", "~> 1.1", :group => :jekyll_plugins
