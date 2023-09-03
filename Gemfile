@@ -28,3 +28,5 @@ if RUBY_PLATFORM =~ /linux-musl/
 end
 
 gem "jekyll-google_search_console_verification_file", "~> 1.1", :group => :jekyll_plugins
+
+gem 'jekyll-sitemap'

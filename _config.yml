@@ -50,6 +50,7 @@ social:
 
 plugins:
   - jekyll-google_search_console_verification_file
+  - jekyll-sitemap
 
 google_search_console:
   verification_file_code: '32d123f6345967a'
@@ -119,7 +120,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 9
 
 # ------------ The following options are not recommended to be modified ------------------
 
