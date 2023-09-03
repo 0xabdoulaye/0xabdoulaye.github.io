@@ -11,14 +11,6 @@
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
 
-   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
-  <meta name="google-site-verification" content="EU_UXiVoiOt-OGfdw_qV8S6nEgAo_N_uYg6kCMiZ4G0" />
-  
   {% capture seo_tags %}
     {% seo title=false %}
   {% endcapture %}
