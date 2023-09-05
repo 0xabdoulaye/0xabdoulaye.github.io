@@ -1,5 +1,5 @@
 ---
-title: CTF for Beginners - Best Ressources to Start Hacking
+title: CTFs for Beginners - Best Ressources to Start Hacking
 date: 2023-09-05 00:00:00 -500
 categories: [OverTheWire]
 tags: [CTFs, Hacking, Beginners, Ressources]
