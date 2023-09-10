@@ -278,15 +278,12 @@ root@metasploitable:/#
 Now, you have a fully interactive TTY shell, which allows for more advanced interactions with the target system. This can be particularly useful for performing tasks, exploring the system, and carrying out further ethical hacking activities.
 
 ## Conclusion:
-
 Throughout this article, we've covered a range of essential concepts and techniques:
-  - **Enumeration**: We began by exploring the basics of scanning, version detection, and script enumeration, essential steps in understanding the target system.
+- **Enumeration**: We began by exploring the basics of scanning, version detection, and script enumeration, essential steps in understanding the target system.
 
-  - **Exploitation**: We delved into the process of identifying and executing exploits, demonstrating the importance of responsible testing and knowledge of vulnerabilities.
+- **Exploitation**: We delved into the process of identifying and executing exploits, demonstrating the importance of responsible testing and knowledge of vulnerabilities.
 
-  - **Gaining Control**: We achieved root access on the target system, highlighting the significance of securing systems against unauthorized intrusion.
+- **Gaining Control**: We achieved root access on the target system, highlighting the significance of securing systems against unauthorized intrusion.
 
-  - **Upgrading to TTY**: We enhanced our control with an interactive TTY shell, providing a more efficient and responsive hacking environment.
-
-
+- **Upgrading to TTY**: We enhanced our control with an interactive TTY shell, providing a more efficient and responsive hacking environment.
 Thanks for reading. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**. 
