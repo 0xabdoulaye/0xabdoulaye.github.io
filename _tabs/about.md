@@ -11,12 +11,12 @@ title: WhoamI
 
 Welcome to my corner of the internet! Here you'll find my hacking journey, CTF writeups, insights into my daily learning, growth experiences, and more.
 
-**🌱 I’m currently learning:**
+**I’m currently learning:**
 - [Python](https://www.python.org/)
 - [OWASP Top10](https://owasp.org/www-project-top-ten/)
 - [Web Hacking](https://www.webhacking.kr/)
 
-📫 How to reach me:
+ How to reach me:
 - **Email:** nenandjabhata@proton.me
 - **Discord:** blomann#3219
 
@@ -33,4 +33,4 @@ Welcome to my corner of the internet! Here you'll find my hacking journey, CTF w
 - [Linux](https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg)
 - [Python](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)
 
-👀 I'm always looking for new projects to work on. If you have any ideas, let me know!
+ I'm always looking for new projects to work on. If you have any ideas, let me know!
