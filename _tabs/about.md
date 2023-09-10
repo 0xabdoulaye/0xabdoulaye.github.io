@@ -6,10 +6,8 @@ title: WhoamI
 ---
 
 
-# 👋 Hi, I'm **Abdoulaye Diallo**
-
-
-### A CyberSecurity Enthusiast from Guinea (Africa)
+## Hi, I'm Abdoulaye Diallo
+**A CyberSecurity Enthusiast from Guinea (Africa)**
 
 Welcome to my corner of the internet! Here you'll find my hacking journey, CTF writeups, insights into my daily learning, growth experiences, and more.
 

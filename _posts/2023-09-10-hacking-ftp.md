@@ -130,7 +130,7 @@ It's very important for an attacker. This line informs us that the `FTP` server 
 
 ### Exploitation: Anonymous Login
 
-The next step involves leveraging the gathered information to explore potential exploits and security gaps. In this section, we turn our attention to one such point of interest: `anonymous login`. <br>
+The next step involves leveraging the gathered information to explore potential exploits and security gaps. In this section, we turn our attention to one such point of interest: `anonymous login`.
 Our earlier enumeration efforts using `Nmap` have revealed that the `FTP` server `allows anonymous login`, a discovery that piques the interest of ethical hackers. `Anonymous login`, as the name suggests, provides an entry point without requiring explicit credentials. While this feature can be convenient for users, it can also be a goldmine for attackers if not properly secured.
 To demonstrate anonymous login we can use as `username: anonymous `and` password: anonymous`, we'll use the following command:
 
@@ -167,7 +167,7 @@ ftp>
 As we can see these output of `note.txt` and `private.txt` files, and here we have found another `pasword:Password123` on the `private.txt` file.
 
 ### Exploitation: Exploiting the Version
-In our earlier discussion of [version scanning](#enumeration-scanning-version), we discovered that the FTP server was running vsFTPd version 2.3.4. Now, our next step is to explore potential exploits that can target this specific version. <br>
+In our earlier discussion of [version scanning](#enumeration-scanning-version), we discovered that the FTP server was running vsFTPd version 2.3.4. Now, our next step is to explore potential exploits that can target this specific version.
 To facilitate this exploration, we'll make use of a valuable tool known as searchsploit. This tool, provided by exploitdb, empowers us to search for exploits right on our local machine, making the process more efficient and focused.
 Using that specific version i used:
 
