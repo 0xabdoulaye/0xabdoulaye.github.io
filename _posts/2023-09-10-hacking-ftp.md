@@ -7,12 +7,13 @@ image:
   path: /assets/img/Pentest/ftp.jpg
 ---
 
-Hello H4ck3rs, did you know In the world of cybersecurity, knowledge is power. For those looking to embark on a journey into ethical hacking, understanding the intricacies of various network ports is essential. One such port that often catches the attention of aspiring hackers is Port 21. In this article, we'll take a closer look at Port 21, diving into the basics of hacking for beginners. <br>
+Hello H4ck3rs, did you know In the world of cybersecurity, knowledge is power. For those looking to embark on a journey into ethical hacking, understanding the intricacies of various network ports is essential. One such port that often catches the attention of aspiring hackers is Port 21. In this article, we'll take a closer look at Port 21, diving into the basics of hacking for beginners. 
+
 But before we start, we invite you to join our vibrant Hacking Journey community on **Discord!** Connect with like-minded hackers, share your experiences, and get ready for more thrilling challenges.
 Whether you're a seasoned pro or just getting started, there's a place for you in our community. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**.
 
 ## **What is FTP?**
-FTP (File Transfer Protocol) is used to communicate and transfer files between computers on a TCP/IP (Transmission Control Protocol/Internet Protocol) network, aka the internet. Users, who have been granted access, can receive and transfer files in the File Transfer Protocol server (also known as FTP host/site). <br>
+FTP (File Transfer Protocol) is used to communicate and transfer files between computers on a TCP/IP (Transmission Control Protocol/Internet Protocol) network, aka the internet. Users, who have been granted access, can receive and transfer files in the File Transfer Protocol server (also known as FTP host/site). 
 The File Transfer Protocol (FTP) is a fundamental component in the world of hacking. FTP allows for the smooth exchange of files across computer networks. While once widely used, FTP's dated security features have made it an appealing target for ethical hackers.
 
 ## **Hacking the Port 21**: A Practical Approach for Beginners
@@ -33,7 +34,7 @@ PORT   STATE SERVICE
 21/tcp open  ftp
 MAC Address: 00:0C:29:69:22:33 (VMware)
 ```
-In this command snippet: <br>
+In this command snippet: 
   - `nmap` is the command to run Nmap.
   - `-p21` specifies that we are interested in Port 21.
   - `192.168.11.135` is the IP address of the target system.
@@ -58,12 +59,12 @@ Service Info: OS: Unix
 ```
 
  - `-p21` specifies Port 21 for FTP.
- - `-sV` tells Nmap to perform version detection. which is vsftpd 2.3.4 <br>
+ - `-sV` tells Nmap to perform version detection. which is vsftpd 2.3.4 
 In the exploitation Section we will use this version to see if any exploit is available to `Hack` this `FTP` version
 ### Enumeration: Running Default nmap Script's
 
-The enumeration is the important Step of our Penetration Testing and In this section, we continue our enumeration process with a specific focus on running default `Nmap` scripts. These scripts are a powerful tool in the arsenal of ethical hackers, allowing us to gather valuable information and uncover potential vulnerabilities on the FTP server. <br>
-The `-sC` flag in Nmap instructs it to run default scripts against the target host. These scripts are designed to perform a wide range of tasks, from service discovery to vulnerability detection. <br>
+The enumeration is the important Step of our Penetration Testing and In this section, we continue our enumeration process with a specific focus on running default `Nmap` scripts. These scripts are a powerful tool in the arsenal of ethical hackers, allowing us to gather valuable information and uncover potential vulnerabilities on the FTP server. 
+The `-sC` flag in Nmap instructs it to run default scripts against the target host. These scripts are designed to perform a wide range of tasks, from service discovery to vulnerability detection.
 Take a look at this Nmap scan result used with the `-sC` :
 
 ```terminal
