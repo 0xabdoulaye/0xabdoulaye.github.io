@@ -1,10 +1,9 @@
 ---
+layout: post
 title: Hacking for Beginners - Port 21 Pentesting
 date: 2023-09-10 00:00:00 -500
 categories: [Hacking for Beginners, Pentesting]
 tags: [FTP, nmap, CTFs, Hacking]
-image:
-  path: /assets/img/Pentest/ftp.jpg
 ---
 
 Hello H4ck3rs, did you know In the world of cybersecurity, knowledge is power. For those looking to embark on a journey into ethical hacking, understanding the intricacies of various network ports is essential. One such port that often catches the attention of aspiring hackers is Port 21. In this article, we'll take a closer look at Port 21, diving into the basics of hacking for beginners. 

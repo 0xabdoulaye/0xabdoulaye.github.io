@@ -3,8 +3,6 @@ title: Hacking for Beginners - Bandit Levels 6-10 on OverTheWire
 date: 2023-09-07 00:00:00 -500
 categories: [Hacking for Beginners, OverTheWire]
 tags: [Bandit, Linux, CTFs, Hacking]
-image:
-  path: /assets/Overthewire/banditcover.png
 ---
 
 Welcome back Hackers, **to The Hacking Journey**, In our previous articles, we embarked on an exciting **Hacking Journey** through the Bandit wargame by OverTheWire, specifically focusing on Bandit levels 0 to 5. If you missed those adventures, don't worry; you can catch up on all the action and insights [here](https://blackcybersec.xyz/posts/Bandit0-5/).
