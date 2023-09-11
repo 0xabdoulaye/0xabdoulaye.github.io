@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hacking for Beginners - Port 21 Pentesting
 date: 2023-09-10 00:00:00 -500
 categories: [Hacking for Beginners, Pentesting]
