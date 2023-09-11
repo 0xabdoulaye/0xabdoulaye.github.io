@@ -3,6 +3,8 @@ title: CTFs for Beginners - Best Ressources to Start Hacking
 date: 2023-09-05 00:00:00 -500
 categories: [Hacking for Beginners, CTFs]
 tags: [CTFs, Hacking, Beginners, Learn]
+image:
+  path: https://i.ibb.co/Df9CCR1/images.png
 ---
 
 Hello and Welcome, This article aims to introduce beginners to the exciting world of ethical hacking through Capture The Flag (CTF) challenges. Whether you’re an aspiring cybersecurity professional or just curious about hacking, this guide will provide you with a solid foundation to embark on your journey.
