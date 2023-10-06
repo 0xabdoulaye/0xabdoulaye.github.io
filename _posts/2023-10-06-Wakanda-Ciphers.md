@@ -23,7 +23,7 @@ You are provided with a hexadecimal string. Your task is to convert this hexadec
 >>> var = bytes.fromhex(hexa)
 >>> flag = base64.b64encode(var)
 >>> print(flag)
-b'crypto/Base+64+Encoding+is+Web+XXXX/'
+b'crypto/Base+64+Encoding+is+XXX+XXXX/'
 >>> 
 ```
 - We convert the hexadecimal string hexa into a sequence of bytes using the `bytes.fromhex()` method. This step is essential because Base64 encoding operates on binary data.
@@ -39,7 +39,7 @@ Cipher: `}r3hp1C_v3R_yb4B{MHT`
 >>> flag = "}r3hp1C_v3R_yb4B{MHT"
 >>> reversed = flag[::-1]
 >>> print(reversed)
-THM{B4by_R3v_CXXXX}
+THM{B4by_R3v_XXXXX}
 >>> 
 ```
 - To solve it, First we define a variable `flag`.The line `reversed = flag[::-1]` is used to reverse the characters in the flag string. This is achieved by using Python's slicing notation with a step value of `-1 ([::-1])`. This effectively reverses the order of characters in the string.
@@ -58,7 +58,7 @@ Then after Decoding it, We got `VEhNe0F0YmFzaF8xc180Q2lwaDNyfQo=` it's seems lik
                                                                              
 ┌──(root㉿1337)-[/home/bloman/Blog]
 └─# echo $base | base64 -d               
-THM{Atbash_1s_4CXXXX}
+THM{Atbash_1s_XXXXXX}
 ```
 
 ## Two Hex Cipher
@@ -68,7 +68,7 @@ THM{Atbash_1s_4CXXXX}
 This `3vs3ej3f46hr4a76cf5m61934qf5ck6876731rr5gu2z76l9` is a `TwinHex Cipher`. 
 To decode it Google can Help to find other online tools.
 You Can use this : [Decode Twin Hex](https://www.calcresult.com/misc/cyphers/twin-hex.html)
-Then found : `THM{N0w_You_kn0w_wh4t's_XXXX}`
+Then found : `THM{N0w_You_kn0w_wh4tX_XXXX}`
 
 ## Rot in 13
 In this challenge, you'll encounter a message that has been encoded using the ROT13 cipher, a simple letter substitution technique. Your task is to decode the message and reveal the hidden information.
