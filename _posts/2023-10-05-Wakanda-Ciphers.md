@@ -104,10 +104,10 @@ To solve it You can improve your coding skills on it, or use online tools:
 flag is not in THM format
 `M0RS5_F0R_XXXX`
 **Best online Tools for Crypto:**
-[CyberChef](https://gchq.github.io)
-[Cryptii](cryptii.com/)
-[Dcode](dcode.fr)
-[Multi Decoder Sleuth](https://www.cachesleuth.com/multidecoder/)
+CyberChef
+Cryptii
+Dcode
+Multi Decoder Sleuth
 
 ### Join Us
 Thanks for reading. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**. 
