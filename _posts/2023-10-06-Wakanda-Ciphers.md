@@ -1,8 +1,8 @@
 ---
 title: Crypto for Beginners - The Wakanda Ciphers
-date: 2023-10-06 00:00:00 -500
+date: 2023-10-05 00:00:00 -500
 categories: [Hacking for Beginners, Crypto CTFs]
-tags: [crypto, cipher, CTFs, Hacking]
+tags: [Crypto, cipher, CTFs, Hacking]
 image:
     path: https://i.ibb.co/SvfnMWN/wakanda.jpg
 ---
