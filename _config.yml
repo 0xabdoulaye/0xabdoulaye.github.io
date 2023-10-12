@@ -45,7 +45,7 @@ social:
     - https://github.com/nenandjabhata # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7
+    - https://www.linkedin.com/in/bloman
 
 plugins:
   - jekyll-sitemap
