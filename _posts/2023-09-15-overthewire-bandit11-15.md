@@ -7,7 +7,7 @@ image:
     path: https://i.ibb.co/8MJXs9H/banditcover.png
 ---
 
-Welcome back Hackers, **to The Hacking Journey**, In our previous articles, we embarked on an exciting **Hacking Journey** through the Bandit wargame by OverTheWire, specifically focusing on Bandit levels 11 to 15. If you missed those adventures, don't worry; you can catch up on all the action and insights [here](https://blackcybersec.xyz/categories/overthewire/).
+Welcome back Hackers, **to The Hacking Journey**, In our previous articles, we embarked on an exciting **Hacking Journey** through the Bandit wargame by OverTheWire, specifically focusing on Bandit levels 11 to 13. If you missed those adventures, don't worry; you can catch up on all the action and insights [here](https://blackcybersec.xyz/categories/overthewire/).
 
 But before we do, we invite you to join our vibrant Hacking Journey community on **Discord!** Connect with like-minded hackers, share your experiences, and get ready for more thrilling challenges.
 Whether you're a seasoned pro or just getting started, there's a place for you in our community. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**.
@@ -38,7 +38,7 @@ The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 ```
 By using the `echo` command and `base64 -d` we successfully decode the Base64 string and reveal the password: `6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM.`
 
-## **Level 11**: Decoding Rot13 Cipher.
+## **Level 12**: Decoding Rot13 Cipher.
 
 - **GOAL**: 
 The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
@@ -68,7 +68,7 @@ The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 ```
 In my local command-line i enter the `echo` command followed by the `rot13` command and then we successfuly decoded it and reveal the password `JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv`
 
-## **Level 11**: Hexdumps\Compressions\File Signature.
+## **Level 13**: Hexdumps\Compressions\File Signature.
 
 - **GOAL**: 
 The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
@@ -212,6 +212,3 @@ The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 Now we found our password for the next challenge. See you S00n.
 ### Join Us
 Thanks for reading. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**. 
-
-
-
