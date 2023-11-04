@@ -1,5 +1,5 @@
 ---
-title: Hacking for Beginners - Bandit Levels 14-18 on OverTheWire
+title: Hacking for Beginners - Bandit Levels 14-16 on OverTheWire
 date: 2023-11-04 00:00:00 -500
 categories: [Hacking for Beginners, OverTheWire]
 tags: [Bandit, Linux, CTFs, Hacking]
