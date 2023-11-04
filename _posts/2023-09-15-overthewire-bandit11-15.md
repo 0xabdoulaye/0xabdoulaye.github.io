@@ -7,7 +7,7 @@ image:
     path: https://i.ibb.co/8MJXs9H/banditcover.png
 ---
 
-Welcome back Hackers, **to The Hacking Journey**, In our previous articles, we embarked on an exciting **Hacking Journey** through the Bandit wargame by OverTheWire, specifically focusing on Bandit levels 11 to 13. If you missed those adventures, don't worry; you can catch up on all the action and insights [here](https://blackcybersec.xyz/categories/overthewire/).
+Welcome back Hackers, **to The Hacking Journey**, In our previous articles, we embarked on an exciting **Hacking Journey** through the Bandit wargame by OverTheWire, specifically focusing on Bandit levels 6 to 10. If you missed those adventures, don't worry; you can catch up on all the action and insights [here](https://blackcybersec.xyz/categories/overthewire/).
 
 But before we do, we invite you to join our vibrant Hacking Journey community on **Discord!** Connect with like-minded hackers, share your experiences, and get ready for more thrilling challenges.
 Whether you're a seasoned pro or just getting started, there's a place for you in our community. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**.
