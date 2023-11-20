@@ -11,8 +11,9 @@ Welcome back Hackers, I've created a CTF room on TryHackMe specifically tailored
 But before we start, we invite you to join our vibrant Hacking Journey community on **Discord!** Connect with like-minded hackers, share your experiences, and get ready for more thrilling challenges.
 Whether you're a seasoned pro or just getting started, there's a place for you in our community. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**.
 
-**Join TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
-**The Room [Here](https://tryhackme.com/room/wakanda)**.
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
+- **The Room [Here](https://tryhackme.com/room/wakanda)**.
 
 ## FromHex
 You are provided with a hexadecimal string. Your task is to convert this hexadecimal string into its base64 equivalent. The flag is the value in base64 of the given hexadecimal string.

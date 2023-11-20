@@ -12,6 +12,9 @@ Hello H4ck3rs, did you know In the world of cybersecurity, knowledge is power. F
 But before we start, we invite you to join our vibrant Hacking Journey community on **Discord!** Connect with like-minded hackers, share your experiences, and get ready for more thrilling challenges.
 Whether you're a seasoned pro or just getting started, there's a place for you in our community. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**.
 
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
+
 ## **What is FTP?**
 FTP (File Transfer Protocol) is used to communicate and transfer files between computers on a TCP/IP (Transmission Control Protocol/Internet Protocol) network, aka the internet. Users, who have been granted access, can receive and transfer files in the File Transfer Protocol server (also known as FTP host/site). 
 The File Transfer Protocol (FTP) is a fundamental component in the world of hacking. FTP allows for the smooth exchange of files across computer networks. While once widely used, FTP's dated security features have made it an appealing target for ethical hackers.

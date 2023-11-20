@@ -9,9 +9,9 @@ image:
 
 Welcome back, Hackers, **to The Hacking Journey**, In this exciting articles, we will take a look about Spring4shell,  Spring4Shell, also known as `CVE-2022-22965`, is a remote code execution vulnerability within the Spring Framework. It's a name that resonates with the critical Log4Shell bug revealed in 2021.
 If you're eager to enhance your hacking skills and learn alongside us, we invite you to join the ranks of aspiring hackers and cybersecurity enthusiasts.
-**Learn with HacktheBox [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
-**Join TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
-**Exploit The Lab [Here](https://echoctf.red/target/92)**.
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
+- **Exploit The Lab [Here](https://echoctf.red/target/92)**.
 
 ## Exploitation 
 Now we will explore how the exploitation works in more details.

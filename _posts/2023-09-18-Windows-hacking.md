@@ -9,6 +9,9 @@ image:
 
 Welcome back,fellow Hackers, **to The Hacking Journey**, In this exciting Series we will be diving deep into the world of Boot2root CTFs.  If you're new to the concept of Boot2root, it's essentially a type of Capture The Flag (CTF) challenge where you simulate hacking into a target system to find hidden flags. Curious? [Learn more here](https://blackcybersec.xyz/posts/Ressources-for-hackers/): 
 
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
+
 ## **Recon Time**: 
 During this enumeration phase, we will systematically scan the network for open ports, gather information about their versions, and explore potential vulnerabilities associated with these ports. Join us as we dive deep into the art of reconnaissance.
 

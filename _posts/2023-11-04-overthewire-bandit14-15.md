@@ -11,8 +11,8 @@ Welcome back Hackers, **to The Hacking Journey**, In our previous series of Band
 
 If you're eager to enhance your hacking skills and learn alongside us, we invite you to join the ranks of aspiring hackers and cybersecurity enthusiasts.
 
-- **Improve your Hacking skills [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
-- **Join TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 ## **Level 14**: SSH using private key.
 

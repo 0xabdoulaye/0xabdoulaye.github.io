@@ -9,6 +9,9 @@ image:
 
 Welcome back Hackers, **to The Hacking Journey**, In our previous articles, we embarked on an exciting **Hacking Journey** through the Bandit wargame by OverTheWire, specifically focusing on Bandit levels 0 to 5. If you missed those adventures, don't worry; you can catch up on all the action and insights [here](https://blackcybersec.xyz/posts/Bandit0-5/).
 
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
+
 ### **RECAP** :
 We began with the basics, honing our Linux command-line skills and navigating file systems. Now, let's continue our adventure into Bandit levels 6 to 10, where challenges get even more intriguing.
 

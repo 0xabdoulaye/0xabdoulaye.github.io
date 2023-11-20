@@ -9,8 +9,8 @@ image:
 PwnTillDawn Online Battlefield is a penetration testing lab created by the wizlynx group. Here, participants can put their offensive security skills to the test within a safe and legal environment, all while having a blast! The goal is simple: breach as many machines as possible by exploiting a sequence of weaknesses and vulnerabilities, and gather flags to demonstrate your successful exploitation
 If you're eager to enhance your hacking skills and learn alongside us, we invite you to join the ranks of aspiring hackers and cybersecurity enthusiasts.
 
-- **Improve your Hacking skills [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
-- **Join TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 ## Enumeration(Recon)
 for the enumeration time, we always start with a basic nmap scan.. Like this.

@@ -8,8 +8,9 @@ image:
 ---
 Hello Everyone, In this blog, I will guide you through the steps to solve the ***Dancing*** machine, part of the **Starting Point** labs on HacktheBox. This machine has been classified `Free` and **Very Easy** making it an ideal choice for beginners looking to embark on their journey into the exciting world of ethical hacking.
 If you're eager to enhance your hacking skills and learn alongside us, we invite you to join the ranks of aspiring hackers and cybersecurity enthusiasts.
-**Exploit the Lab [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
-**Join TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
+
+- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 ## Enumeration(Recon)
 
