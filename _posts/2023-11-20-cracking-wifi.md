@@ -80,3 +80,5 @@ As you can see here now, the hash has been cracked. Very Easy right ?
 Thanks for reading.
 ### Join Us
 Thanks for reading. **Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**. 
+
+{\% include coffee.html \%}

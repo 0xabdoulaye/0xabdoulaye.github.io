@@ -18,12 +18,12 @@ timezone: Africa/Conakry
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: The Hacking Journey # the main title
+title: ᗩᗷᗪOᑌᒪᗩYE # the main title
 
 tagline: A Cybersecurity Enthusiast # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A Cybersecurity Enthusiast
+  Cybersecurity Enthusiast | CTFs| Linux | Road to RedTeam | BlueTeam
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://blackcybersec.xyz"
