@@ -4,7 +4,7 @@ date: 2023-09-10 00:00:00 -500
 categories: [Hacking for Beginners, Pentesting]
 tags: [FTP, nmap, CTFs, Hacking]
 image:
-  path: https://i.ytimg.com/vi/Q4hYgK-ofV0/maxresdefault.jpg
+  path: https://i.ibb.co/9cnGJN3/port-21-cua-ftp.jpg
 ---
 
 Hello H4ck3rs, did you know In the world of cybersecurity, knowledge is power. For those looking to embark on a journey into ethical hacking, understanding the intricacies of various network ports is essential. One such port that often catches the attention of aspiring hackers is Port 21. In this article, we'll take a closer look at Port 21, diving into the basics of hacking for beginners. 
@@ -21,7 +21,7 @@ The File Transfer Protocol (FTP) is a fundamental component in the world of hack
 
 ## **Hacking the Port 21**: A Practical Approach for Beginners
 
-### Enumeration: Scanning FTP Port Using nmap 
+### Enumeration: Scanning FTP Port Using nmap
 
 Enumeration is a critical phase in the process of hacking Port 21. It involves systematically gathering information about the target FTP server, which is invaluable for identifying potential vulnerabilities and crafting effective attacks. In this section, we'll explore the techniques and tools that ethical hackers use to enumerate FTP servers on Port 21.
 
