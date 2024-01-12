@@ -1,6 +1,6 @@
 ---
 title: VulnUniversity on TryHackMe - Boot2root
-date: 2024-01-12 00:00:00 -500
+date: 2024-01-11 00:00:00 -500
 categories: [Hacking for Beginners, TryHackMe]
 tags: [Web, THM, Easy, Hacking]
 image:
