@@ -1,6 +1,7 @@
 ---
-# the default layout is 'page'
-type: buymeacoffee
+# the default layout is 'page
+layout: redirect
 icon: fas fa-coffee
-url:  'https://buymeacoffee.com/bloman' 
+order: 1
+redirect:  https://buymeacoffee.com/bloman
 ---
