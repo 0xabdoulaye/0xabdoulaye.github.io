@@ -5,22 +5,22 @@ order: 4
 ---
 
 
-## Hi, I'm Abdoulaye Diallo
-**A CyberSecurity Enthusiast from Guinea (Africa)**
+<h1 align="center"> Hi, I'm Abdoulaye Diallo </h1>
+<h3 align="center">A CyberSecurity Enthusiast from Guinea.</h3>
 
 Welcome to my corner of the internet! Here you'll find my hacking journey, CTF writeups, insights into my daily learning, growth experiences, and more.
 
+<div style="text-align: center; display: flex; justify-content: center; align-items: center;">
+    <div style="display: inline-block; margin: 0 20px; vertical-align: middle;">
+        <script src="https://tryhackme.com/badge/1143465"></script>
+    </div>
+    <div style="display: inline-block; margin: 0 20px; vertical-align: middle;">
+        <script src="https://tryhackme.com/badge/890778"></script>
+    </div>
+
+</div>
 
 
-
-**I’m currently learning:**
-- [Python](https://www.python.org/)
-- [OWASP Top10](https://owasp.org/www-project-top-ten/)
-- [Web Hacking](https://www.webhacking.kr/)
-
- How to reach me:
-- **Email:** nenandjabhata@proton.me
-- **Discord:** blomann#3219
 
 ### Connect with me:
  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdoulaye-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7/)
@@ -29,15 +29,6 @@ Welcome to my corner of the internet! Here you'll find my hacking journey, CTF w
  [![HackTheBox](https://img.shields.io/badge/HackTheBox-nenandjbhata-lime?style=flat-square&logo=hackthebox)](https://app.hackthebox.com/profile/1143465)
  [![TryHackMe](https://img.shields.io/badge/TryHackMe-bloman-navy?style=flat-square&logo=tryhackme)](https://tryhackme.com/p/bloman)
 
-<div style="text-align: center; display: flex; justify-content: center; align-items: center;">
-    <div style="display: inline-block; margin: 0 20px; vertical-align: middle;">
-        <script src="https://www.hackthebox.eu/badge/565048"></script>
-    </div>
-    <div style="display: inline-block; margin: 0 20px; vertical-align: middle;">
-        <script src="https://tryhackme.com/badge/367641"></script>
-    </div>
-
-</div>
 <h1 align="center">Languages and Tools:</h1>
 <p align="center">
 <a href="https://www.python.org" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50" /></a>
@@ -54,6 +45,20 @@ Welcome to my corner of the internet! Here you'll find my hacking journey, CTF w
 <a href="https://hashcat.net/hashcat/" target="_blank" rel="noreferrer"><img align="center" src="https://avatars.githubusercontent.com/u/15949799?s=48&v=4" alt="hashcat" width="50" height="50" /></a>
 <!--<a href="" target="_blank" rel="noreferrer"><img align="center" src="" alt="" width="50" height="50" /></a>-->
 
+</p>
+
+
+
+
+<h1 align="center">Connect with me:</h1>
+<p align="center">
+<a href="https://twitter.com/bloman19" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="x" height="50" width="50" /></a>
+&nbsp; <a href="https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="50" width="50" /></a>
+&nbsp; <a href="https://tryhackme.com/p/bloman" target="blank"><img align="center" src="https://authenticator.2stable.com/assets/img/2fa-services/Icons/tryhackme.com.svg" alt="tryhackme" height="50" width="50" /></a>
+&nbsp; <a href="https://app.hackthebox.com/profile/1143465" target="blank"><img align="center" src="https://app.hackthebox.com/images/HTB-favicon/favicon.ico" alt="hackthebox" height="50" width="50" /></a>
+&nbsp; <a href="https://t.me/" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt="telegram" height="50" width="50" /></a>
+<a href="https://www.buymeacoffee.com/bloman" target="_blank" rel="noreferrer"><img align="center" src="https://www.buymeacoffee.com/favicon.ico" alt="buymecoffee" width="50" height="50" /></a>
+<a href="#" onclick="javascript:location.href='mailto:' + ['nenandjabhata', 'proton.me'].join('@')" target="blank"><img align="center" src="https://purepng.com/public/uploads/large/purepng.com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075clftr.png" alt="Abdoulaye" height="50" width="50" /></a>
 </p>
 
  I'm always looking for new projects to work on. If you have any ideas, let me know!
