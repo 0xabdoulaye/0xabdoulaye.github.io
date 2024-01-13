@@ -1,7 +1,6 @@
 ---
-# the default layout is 'page
-layout: redirect
+# the default layout is 'pag
 icon: fas fa-coffee
 order: 1
-redirect:  https://buymeacoffee.com/bloman
+redirect_to:  https://buymeacoffee.com/bloman
 ---
