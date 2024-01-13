@@ -48,9 +48,5 @@ Welcome to my corner of the internet! Here you'll find my hacking journey, CTF w
 &nbsp; <a href="https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="50" width="50" /></a>
 &nbsp; <a href="https://tryhackme.com/p/bloman" target="blank"><img align="center" src="https://authenticator.2stable.com/assets/img/2fa-services/Icons/tryhackme.com.svg" alt="tryhackme" height="50" width="50" /></a>
 &nbsp; <a href="https://app.hackthebox.com/profile/1143465" target="blank"><img align="center" src="https://app.hackthebox.com/images/HTB-favicon/favicon.ico" alt="hackthebox" height="50" width="50" /></a>
-&nbsp; <a href="https://t.me/" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt="telegram" height="50" width="50" /></a>
+&nbsp; <a href="https://t.me/Mr_133X" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt="telegram" height="50" width="50" /></a>
 <a href="https://www.buymeacoffee.com/bloman" target="_blank" rel="noreferrer"><img align="center" src="https://www.buymeacoffee.com/favicon.ico" alt="buymecoffee" width="50" height="50" /></a>
-<a href="#" onclick="javascript:location.href='mailto:' + ['nenandjabhata', 'proton.me'].join('@')" target="blank"><img align="center" src="https://purepng.com/public/uploads/large/purepng.com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075clftr.png" alt="Abdoulaye" height="50" width="50" /></a>
-</p>
-
- I'm always looking for new projects to work on. If you have any ideas, let me know!

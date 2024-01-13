@@ -1,5 +1,6 @@
 ---
 # the default layout is 'page'
+type: buymeacoffee
 icon: fas fa-coffee
-order: 4
+url:  'https://buymeacoffee.com/bloman' 
 ---
