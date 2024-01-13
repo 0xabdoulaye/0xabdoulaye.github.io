@@ -12,7 +12,7 @@ Welcome to my corner of the internet! Here you'll find my hacking journey, CTF w
 
 <div style="text-align: center; display: flex; justify-content: center; align-items: center;">
     <div style="display: inline-block; margin: 0 20px; vertical-align: middle;">
-        <script src="https://tryhackme.com/badge/1143465"></script>
+        <script src="https://hackthebox.eu/badge/1143465"></script>
     </div>
     <div style="display: inline-block; margin: 0 20px; vertical-align: middle;">
         <script src="https://tryhackme.com/badge/890778"></script>
@@ -20,14 +20,6 @@ Welcome to my corner of the internet! Here you'll find my hacking journey, CTF w
 
 </div>
 
-
-
-### Connect with me:
- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdoulaye-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/abdoulaye-diallo-241aa71a7/)
- [![Twitter](https://img.shields.io/badge/Twitter-Abdoulaye-blue?style=flat-square&logo=twitter)](https://www.twitter.com/bloman19/)
-[![Website](https://img.shields.io/badge/BlackCyberSec.xyz-blue?style=flat-square&logo=google-chrome)](https://blackcybersec.xyz/)
- [![HackTheBox](https://img.shields.io/badge/HackTheBox-nenandjbhata-lime?style=flat-square&logo=hackthebox)](https://app.hackthebox.com/profile/1143465)
- [![TryHackMe](https://img.shields.io/badge/TryHackMe-bloman-navy?style=flat-square&logo=tryhackme)](https://tryhackme.com/p/bloman)
 
 <h1 align="center">Languages and Tools:</h1>
 <p align="center">
