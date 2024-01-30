@@ -50,16 +50,6 @@ social:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
-   - jekyll-chatgpt-translate
-chatgpt-translate:
-  model: gpt-3.5-turbo
-  source: en
-  layout: translated
-  targets: 
-    - 
-      language: fr
-      permalink: :year-:month-:day-:title-french.html
-      layout: french-translated
 
 
 google_site_verification: # fill in to your verification string
