@@ -4,9 +4,8 @@ date: 2024-02-29 00:00:00 -500
 categories: [Hacking for Beginners, HacktheBox]
 tags: [CVE, HTB, Easy, Hacking]
 image:
-    path: https://i.ibb.co/Q6LMgDR/Arctic.png
+    path: https://i.ibb.co/x2bNLDD/ar.jpg
 ---
-
 Bonsoir encore, je vais vous presentez mon writeup sur l'exploitation d'une Machine Windows de Niveau `Facile` sur HacktheBox
 
 **Description**:
@@ -65,11 +64,11 @@ Avec mon scan, je ne trouve que 3 ports qui sont ouverts sur la Machine dont:
 
 En visitant le port *8500*, j'atteris sur cette page
 
-![Page D'accueil]()
+![Page D'accueil](https://i.ibb.co/Fn05ncT/image-86.png)
 
-Dans ces deux (2) directory, en faisant des recherchers je tombe sur une page `/administrator`
+Dans ces deux (2) directory, en faisant des recherchers je tombe sur une page `/administrator` qui me renvoi dans un login
 
-![Admin]()
+![Admin](https://i.ibb.co/5T2jpnd/ad.png)
 
 - Dans celle-ci je trouve dans le titre `Adobe ColdFusion 8 Administrator`. alors je cherche des exploits sur `Google` et sur `Searchsploit`
 
