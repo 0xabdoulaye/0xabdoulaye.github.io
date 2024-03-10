@@ -2,9 +2,9 @@
 title: Resolute - HacktheBox(Medium)
 date: 2024-03-10 00:00:00 -500
 categories: [Hacking for Beginners, HacktheBox]
-tags: [CVE, HTB, Medium, Hacking]
+tags: [DNSadmin, HTB, Medium, Hacking]
 image:
-    path: https://i.ibb.co/x2bNLDD/ar.jpg
+    path: https://i.ibb.co/93wTd94/resolute.jpg
 ---
 
 Dans cet article, je vais presenter mon writeup sur la Box Resolute de HacktheBox, qui est vraiment une machine de Active Directory tres fascinant.
