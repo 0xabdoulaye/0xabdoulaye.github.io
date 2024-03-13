@@ -1,6 +1,7 @@
 ---
 title: Resolute - HacktheBox(Medium)
 date: 2024-03-10 00:00:00 -500
+description: Resolute est une machine Windows de Niveau Medium et est dotée d’Active Directory. Pour avoir l'acces initial, je trouve un utilisateur anonyme qui a acces au SMB. Grace a cela je reussi a avoir un mot de passe d'un utilisateur avec lequel je fais du PasswordSpraying pour avoir son vrai utilisateur. Dans ce writeup je te presente mon walkthrough sur cet machine Active Directory.
 categories: [Hacking for Beginners, HacktheBox]
 tags: [DNSadmin, HTB, Medium, Hacking]
 image:
