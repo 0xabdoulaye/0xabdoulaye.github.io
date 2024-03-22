@@ -50,22 +50,7 @@ social:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-chatgpt-translate
-  - jekyll-paginate
-
-
-chatgpt-translate:
-  threshold: 64
-  min_chars: 20
-  source: fr
-  version: "42"
-  layout: translated
-  targets:
-    -
-      language: en
-      permalink: en/:title/
-
-
+  
 
 
 google_site_verification: # fill in to your verification string
