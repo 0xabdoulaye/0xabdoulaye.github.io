@@ -52,7 +52,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-chatgpt-translate
   - jekyll-paginate
-  
+
 
 chatgpt-translate:
   threshold: 64
@@ -63,7 +63,7 @@ chatgpt-translate:
   targets:
     -
       language: en
-      permalink: zh/:year/:month/:day/:slug.html
+      permalink: en/:title/
 
 
 
