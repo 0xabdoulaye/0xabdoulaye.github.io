@@ -10,7 +10,7 @@ baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: fr
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Africa/Conakry
@@ -50,6 +50,20 @@ social:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-chatgpt-translate
+
+chatgpt-translate:
+  threshold: 64
+  min_chars: 20
+  source: fr
+  version: "42"
+  layout: translated
+  targets:
+    -
+      language: en
+      permalink: zh/:year/:month/:day/:slug.html
+
+
 
 
 google_site_verification: # fill in to your verification string
@@ -72,6 +86,9 @@ google_analytics:
 #     dark   - Use the dark color scheme
 #
 theme_mode: dark # [light|dark]
+
+
+
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
