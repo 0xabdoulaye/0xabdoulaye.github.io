@@ -50,6 +50,7 @@ social:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-compose
   
 
 
