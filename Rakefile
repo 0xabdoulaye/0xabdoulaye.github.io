@@ -11,12 +11,27 @@ namespace :draft do
     FileUtils.touch("_drafts/#{@slug}.md")
     open("_drafts/#{@slug}.md", 'a' ) do |file|
       file.puts "---"
-      file.puts "layout: post"
       file.puts "title: #{@name}"
       file.puts "description: maximum 155 char description"
-      file.puts "category: blog"
-      file.puts "tag: blog"
+      file.puts "categories: [Hacking for Beginners]"
+      file.puts "tags: [HTB, CTFs, Hacking]"
+      file.puts "image:
+    path:"
       file.puts "---"
+      file.puts ""
+      file.puts ""
+      file.puts "- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**."
+    file.puts ""
+    file.puts ""
+    file.puts "## Reconnaissance"
+    file.puts ""
+    file.puts ""
+    file.puts "## Privilege Escalation"
+    file.puts ""
+    file.puts ""
+    file.puts "### Join Us
+**Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**."
     end
   end
 
