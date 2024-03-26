@@ -95,6 +95,7 @@ tail_includes:
     </div>
   </header>
 
+  <div id="toc"></div>
   <div class="content">
     {{ content }}
   </div>
@@ -151,6 +152,10 @@ tail_includes:
   <!-- div.post-tail-wrapper -->
 
      {% include adsense.html %}
-
-
+     <script src="../_includes/toc.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
 </article>
