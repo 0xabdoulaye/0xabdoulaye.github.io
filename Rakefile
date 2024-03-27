@@ -8,10 +8,12 @@ namespace :draft do
     @slug = "#{@name}"
     @slug = @slug.tr('ÁáÉéÍíÓóÚú', 'AaEeIiOoUu')
     @slug = @slug.downcase.strip.gsub(' ', '-')
+    current_date = Time.now.strftime("%Y-%m-%d %H:%M:%S %z")
     FileUtils.touch("_drafts/#{@slug}.md")
     open("_drafts/#{@slug}.md", 'a' ) do |file|
       file.puts "---"
       file.puts "title: #{@name}"
+      file.puts "date: #{current_date}"
       file.puts "description: maximum 155 char description"
       file.puts "categories: [Hacking for Beginners]"
       file.puts "tags: [HTB, CTFs, Hacking]"
@@ -20,8 +22,8 @@ namespace :draft do
       file.puts "---"
       file.puts ""
       file.puts ""
-      file.puts "- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
-- **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**."
+      file.puts "- **[The Best Academy to Learn Hacking](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **[Beginner Friendly challenges on TryHackMe](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**."
     file.puts ""
     file.puts ""
     file.puts "## Reconnaissance"
@@ -30,8 +32,11 @@ namespace :draft do
     file.puts "## Privilege Escalation"
     file.puts ""
     file.puts ""
-    file.puts "### Join Us
-**Let's learn, explore, and hack together**. **Join us on Discord [here](https://discord.gg/wBT9wr9ruG)**."
+    file.puts "## Ressources supplementaires"
+    file.puts "Voici quelques ressources supplémentaires qui pourraient vous être utiles :"
+    file.puts "[]()"
+    file.puts "[]()"
+    file.puts "- [Join Us on Discord](https://discord.gg/wBT9wr9ruG)."
     end
   end
 
