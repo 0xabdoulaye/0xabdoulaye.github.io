@@ -101,14 +101,14 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     enabled: true
-    repo: nenandjabhata/nenandjabhata.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOKOpDHA
-    category: Announcements
-    category_id: DIC_kwDOKOpDHM4CeSe5
-    mapping: title  # optional, default to 'pathname'
-    input_position: top # optional, default to 'bottom'
-    lang: fr # optional, default to the value of `site.lang`
-    reactions_enabled: 1 # optional, default to the value of `1`
+    repo: "nenandjabhata/nenandjabhata.github.io" # <gh-username>/<repo>
+    repo_id: "R_kgDOKOpDHA"
+    category: "Announcements"
+    category_id: "DIC_kwDOKOpDHM4CeSe5"
+    mapping: "title"  # optional, default to 'pathname'
+    input_position: "top" # optional, default to 'bottom'
+    lang: "fr" # optional, default to the value of `site.lang`
+    reactions_enabled: "1" # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
