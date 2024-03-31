@@ -588,13 +588,13 @@ manager\administrator
 
 ## Ressources supplementaires
 Voici quelques ressources supplémentaires qui pourraient vous être utiles :
-[]()
-[Domain Escalate Hacktricks](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/ad-certificates/domain-escalation#attack-2)
-[Active Directory CS Pentesting by Exploit-Notes](https://exploit-notes.hdks.org/exploit/windows/active-directory/ad-cs-pentesting/)
-[msSQL Pentest](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
-[xp_dirtree to list files](https://www.sqlservercentral.com/blogs/how-to-use-xp_dirtree-to-list-all-files-in-a-folder)
-[Active Directory Certificate Pentest](https://www.thehacker.recipes/a-d/movement/ad-cs)
-[Certipy](https://github.com/ly4k/Certipy)
-[ESC7 Exploitation](https://github.com/ly4k/Certipy?tab=readme-ov-file#esc7){#Esc7}
-[Fix KRB_AP_ERR_SKEW](https://medium.com/@danieldantebarnes/fixing-the-kerberos-sessionerror-krb-ap-err-skew-clock-skew-too-great-issue-while-kerberoasting-b60b0fe20069)
+
+- [Domain Escalate Hacktricks](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/ad-certificates/domain-escalation#attack-2)
+- [Active Directory CS Pentesting by Exploit-Notes](https://exploit-notes.hdks.org/exploit/windows/active-directory/ad-cs-pentesting/)
+- [msSQL Pentest](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
+- [xp_dirtree to list files](https://www.sqlservercentral.com/blogs/how-to-use-xp_dirtree-to-list-all-files-in-a-folder)
+- [Active Directory Certificate Pentest](https://www.thehacker.recipes/a-d/movement/ad-cs)
+- [Certipy](https://github.com/ly4k/Certipy)
+- [ESC7 Exploitation](https://github.com/ly4k/Certipy?tab=readme-ov-file#esc7){#Esc7}
+- [Fix KRB_AP_ERR_SKEW](https://medium.com/@danieldantebarnes/fixing-the-kerberos-sessionerror-krb-ap-err-skew-clock-skew-too-great-issue-while-kerberoasting-b60b0fe20069)
 - [Join Us on Discord](https://discord.gg/wBT9wr9ruG).
