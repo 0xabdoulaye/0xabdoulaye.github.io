@@ -172,6 +172,7 @@ defaults:
       swcache: true
 
 sass:
+  quiet: true
   style: compressed
 
 compress_html:
