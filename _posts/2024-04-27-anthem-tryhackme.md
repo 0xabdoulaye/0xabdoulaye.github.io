@@ -15,7 +15,7 @@ image:
 
 ## Reconnaissance
 Avec un petit scan de nmap, je trouve ces 2 ports qui sont ouvert
-```terminal
+```sh
 └─# /home/blo/tools/nmapautomate/nmapauto.sh $ip
 Scanning 10.10.26.182 [65535 ports]
 Discovered open port 3389/tcp on 10.10.26.182
@@ -26,7 +26,7 @@ Discovered open port 80/tcp on 10.10.26.182
 
 Dans le site web je trouve le fichier `/robots.txt` qui contient un mot de passe `UmbracoIsTheBest!`, Donc alors maintenant il faut trouver un utilisateur pour ce mot de passe
 - Dans le Blog je trouve un poeme avec les mots suivantes:
-```
+```plaintext
 Born on a Monday,
 Christened on Tuesday,
 Married on Wednesday,
@@ -40,7 +40,8 @@ Je copie ce texte et je fais une recherche sur Google, puis je trouve que l'util
 
 ### L'acces Initial
 Ok, maintenant j'ai un acces administrateur sur le CMS.
->Chaque fois que je trouve un CMS, je commence toujours par checker sur Google pour des exploits
+
+>>Chaque fois que je trouve un CMS, je commence toujours par checker sur Google pour des exploits
 >{: .prompt-info}
 
 Alors en faisant quelque recherches je trouve un Exploit sur Github [Umbraco-RCE) Remote Code Execution ](https://github.com/noraj/Umbraco-RCE)
@@ -111,6 +112,6 @@ J'utilise comme le mot de passe administrator pour me connecter au `cmd` et ca m
 
 ## Ressources supplementaires
 Voici quelques ressources supplémentaires qui pourraient vous être utiles :
-[Umbraco CMS 7.12.4 - (Authenticated) Remote Code Execution ](https://www.exploit-db.com/exploits/46153)
-[Nishang PowerShells](https://github.com/samratashok/nishang/tree/master/Shells)
+- [Umbraco CMS 7.12.4 - (Authenticated) Remote Code Execution ](https://www.exploit-db.com/exploits/46153)
+- [Nishang PowerShells](https://github.com/samratashok/nishang/tree/master/Shells)
 - [Join Us on Discord](https://discord.gg/wBT9wr9ruG).
