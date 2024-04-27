@@ -1,6 +1,6 @@
 ---
 title: Anthem - TryHackMe
-date: 2024-03-25 13:52:30 -0500
+date: 2024-04-27 00:52:30 -0500
 description: Anthem sur TryHackMe est une machine Windows facile pour les débutants. L'exploitation implique la découverte de mots de passe dans des fichiers web, l'accès à un CMS Umbraco, l'utilisation d'un exploit RCE pour obtenir un shell, et la recherche et l'utilisation d'un mot de passe administrateur pour l'escalade de privilèges.
 categories: [TryHackMe]
 tags: [THM, CTFs, Hacking]
