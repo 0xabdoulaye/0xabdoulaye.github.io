@@ -205,8 +205,8 @@ Done!
 Ici on voit bien que tout est bon et c'est deja executer mais le probleme est qu'on voit les taches effectuer derriere ou les mot de passe qui sont entrer. Alors on va utiliser l'outil `pspy` pour voir ce qui se passe derriere.
 
 
->>pspy est un outil en ligne de commande conçu pour espionner les processus sans avoir besoin des autorisations `root`. Il vous permet de voir les commandes exécutées par d'autres utilisateurs, les tâches cron, etc. au fur et à mesure qu'elles s'exécutent. Il est idéal pour énumérer les systèmes Linux dans les CTF. Il est également idéal pour montrer à vos collègues pourquoi passer des secrets comme arguments sur la ligne de commande est une mauvaise idée.
->{: .prompt-info}
+>>pspy est un outil en ligne de commande conçu pour espionner les processus sans avoir besoin des autorisations `root`. Il vous permet de voir les commandes exécutées par d'autres utilisateurs, les tâches cron, etc. au fur et à mesure qu'elles s'exécutent. Il est idéal pour énumérer les systèmes Linux dans les CTF. Il est également idéal pour montrer à vos collègues pourquoi passer des secrets comme arguments sur la ligne de commande est une mauvaise idée. 
+>{: .prompt-info }
 
 ```sh
 joshua@codify:/tmp/priv$ ./pspy64 -f
