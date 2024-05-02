@@ -11,8 +11,6 @@ tail_includes:
 
 {% include lang.html %}
 
-
-
 <article class="px-1">
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>
@@ -78,34 +76,6 @@ tail_includes:
             {% endif %}
           </em>
         </span>
-
- {% if page.translated %}
-        <ul class="unprintable subline">
-          <li>Translated:</li>
-          {% for hash in page.translated %}
-            {% for link in hash %}
-              <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
-            {% endfor %}
-          {% endfor %}
-          <li><a href="mailto:translate@yegor256.com">add yours!</a></li>
-        </ul>
-      {% endif %}
-      {% if page.chatgpt-translate.model %}
-        <ul class="subline">
-          <li title="The page is translated by ChatGPT from English to a few languages">
-            Translated by
-            <i class="icon icon-chatgpt notranslate" aria-hidden="true"></i>
-            to
-          </li>
-          {% if page.chatgpt-translate.urls['en'] %}
-            <li title="Click to see this page translated to English">
-              <a href='{{ site.url }}{{ page.chatgpt-translate.urls["en"] }}'>English</a>
-            </li>
-          {% endif %}
-        </ul>
-      {% endif %}
-
-
 
         <div>
           <!-- pageviews -->
