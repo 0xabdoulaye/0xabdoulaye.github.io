@@ -1,7 +1,7 @@
 ---
 title: Stuntman Mike - Easy Linux Boot2root on PwntillDawn
 date: 2023-10-28 00:00:00 -500
-categories: [Hacking for Beginners, Boot2root CTFs]
+categories: [PwntillDawn]
 tags: [Linux, PWTD, Easy, Hacking]
 image:
     path: https://i.ibb.co/G5GTsCf/stuntman.png

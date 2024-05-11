@@ -1,7 +1,7 @@
 ---
 title: Hacking for Beginners - Bandit Levels 6-10 on OverTheWire
 date: 2023-09-07 00:00:00 -500
-categories: [Hacking for Beginners, OverTheWire]
+categories: [OverTheWire]
 tags: [Bandit, Linux, CTFs, Hacking]
 image:
     path: https://i.ibb.co/8MJXs9H/banditcover.png

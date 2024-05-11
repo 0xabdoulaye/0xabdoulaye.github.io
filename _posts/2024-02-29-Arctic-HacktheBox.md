@@ -1,7 +1,7 @@
 ---
 title: Arctic - HacktheBox(Easy)
 date: 2024-02-29 00:00:00 -500
-categories: [Hacking for Beginners, HacktheBox]
+categories: [HacktheBox]
 tags: [CVE, HTB, Easy, Hacking]
 image:
     path: https://i.ibb.co/x2bNLDD/ar.jpg

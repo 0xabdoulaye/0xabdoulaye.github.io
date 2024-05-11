@@ -1,7 +1,7 @@
 ---
 title: Hacking for Beginners - Port 21 Pentesting
 date: 2023-09-10 00:00:00 -500
-categories: [Hacking for Beginners, Pentesting]
+categories: [Local]
 tags: [FTP, nmap, CTFs, Hacking]
 image:
   path: https://i.ibb.co/9cnGJN3/port-21-cua-ftp.jpg

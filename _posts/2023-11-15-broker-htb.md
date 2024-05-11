@@ -1,7 +1,7 @@
 ---
 title: Exploiting CVE-2023-46604 - Broker on HackTheBox
 date: 2023-11-15 00:00:00 -500
-categories: [Hacking for Beginners, Boot2root CTFs]
+categories: [HacktheBox]
 tags: [CTFs, HTB, Easy, Hacking]
 image:
     path: https://i.ibb.co/mS1YMyj/broker.jpg

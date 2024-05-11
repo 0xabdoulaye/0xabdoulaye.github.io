@@ -1,7 +1,7 @@
 ---
 title: CTFs for Beginners - Best Ressources to Start Hacking
 date: 2023-09-05 00:00:00 -500
-categories: [Hacking for Beginners, CTFs]
+categories: [Jeopardy]
 tags: [CTFs, Hacking, Beginners, Learn]
 image:
   path: https://i.ibb.co/Df9CCR1/images.png
@@ -42,7 +42,7 @@ When it comes to honing your skills in ethical hacking and diving into the capti
 
 ## 6. Ressources :
 
-####  a . Online CTF Ressources : 
+#### a . Online CTF Ressources :
 
 - [`Awesome CTF`](https://github.com/apsdehal/awesome-ctf)
 - [`CTFTime`](https://ctftime.org/)
@@ -54,7 +54,7 @@ When it comes to honing your skills in ethical hacking and diving into the capti
 - [`Abdoulaye Diallo's Github`](https://github.com/nenandjabhata)
 
 
-#### b. Practical Websites : 
+#### b. Practical Websites :
 Some Website Links to Practice.
 - [`OverTheWire Wargames`](https://overthewire.org/wargames)
 - [`picoCTF`](https://play.picoctf.org/)

@@ -1,7 +1,7 @@
 ---
 title: Cracking WiFi Passwords - Hashcat Master
 date: 2023-11-20 00:00:00 -500
-categories: [Hacking for Beginners, CTFs]
+categories: [Jeopardy]
 tags: [Hashcat, HTB, Easy, Hacking]
 image:
     path: https://i.ibb.co/8M8cxV7/wifi-crack.jpg

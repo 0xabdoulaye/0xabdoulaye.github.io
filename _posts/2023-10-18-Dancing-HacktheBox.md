@@ -1,7 +1,7 @@
 ---
 title: Windows Hacking for Beginners - The Dancing Box
 date: 2023-10-18 00:00:00 -500
-categories: [Hacking for Beginners, Boot2root CTFs]
+categories: [HacktheBox]
 tags: [CTFs, HTB, Easy, Hacking]
 image:
     path: https://i.ibb.co/tzxvvNV/dancing-HTB.jpg

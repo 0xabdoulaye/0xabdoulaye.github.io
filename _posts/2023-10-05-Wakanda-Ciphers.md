@@ -1,7 +1,7 @@
 ---
 title: Crypto for Beginners - The Wakanda Ciphers
 date: 2023-10-05 00:00:00 -500
-categories: [Hacking for Beginners, Crypto CTFs]
+categories: [Jeopardy]
 tags: [Crypto, cipher, CTFs, Hacking]
 image:
     path: https://i.ibb.co/SvfnMWN/wakanda.jpg
@@ -35,7 +35,7 @@ b'crypto/Base+64+Encoding+is+XXX+XXXX/'
 You have been given an encoded message that has been reversed. Your task is to reverse the message back to its original form to reveal the flag.
 
 Cipher: `}r3hp1C_v3R_yb4B{MHT`
-###  Solution
+### Solution
 ```python3
 >>> flag = "}r3hp1C_v3R_yb4B{MHT"
 >>> reversed = flag[::-1]
@@ -95,7 +95,7 @@ Now we got `GUZ{E0g_13_s0e_O3tvaare}`. a rot13 Cipher.
 THM{R0t_13_f0r_B3XXXX}
 ```
 
-## The World of M0rs3 C0de 
+## The World of M0rs3 C0de
 In the world of Morse Code, a classic method of communication through dots and dashes! In this challenge, you'll encounter a secret message that has been encoded using Morse Code. Your mission is to decipher the Morse Code and reveal the hidden message.
 `-- ----- .-. ... ..... ..--.- ..-. ----- .-. ..--.- -- ----- ... -`
 

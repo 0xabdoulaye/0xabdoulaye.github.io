@@ -1,7 +1,7 @@
 ---
 title: CVE-2022-22965 - The Critical Spring4Shell Vulnerability
 date: 2023-10-13 00:00:00 -500
-categories: [Hacking for Beginners]
+categories: [EchoCTF]
 tags: [0day, cve, CTFs, Hacking]
 image:
     path: https://i.ibb.co/cTdw811/spring.webp
@@ -13,7 +13,7 @@ If you're eager to enhance your hacking skills and learn alongside us, we invite
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 - **Exploit The Lab [Here](https://echoctf.red/target/92)**.
 
-## Exploitation 
+## Exploitation
 Now we will explore how the exploitation works in more details.
 ### Lab Description :
 This is a target with direct implementation of the Spring RCE vulnerability CVE-2022-22965, accessible at http://target:8080/helloworld/greeting. The target is here to assist in familiarizing and developing exploits and mitigation tools for this vulnerability.

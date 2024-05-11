@@ -4,7 +4,7 @@ date: 2024-03-31 00:00:00 -0500
 description: Manager est une machine windows qui heberge un environnement Active Directory avec AD CS(Active Directory Certificates Services). Avec un utilisateur anonyme j'arrive a enumerer les autres utilisateurs du Controlleur de Domaine grace au rid-brute forcing. En faisant du PasswordSpraying tout en utilisant le nom de chaque utilisateurs aussi comme mot de passe. Ainsi je trouve un utilisateur ayant un acces au Base de Donnees `MSSQL`. Explorant la Base de Donnees je trouve une sauvegarde ancienne en zip qui contient un utilisateur et un mot de passe qui m'ont donc permis d'avoir l'acces Winrm.
     Enfin, J'exploite une Misconfiguration du Certificat de Services via le ESC7 pour avoir les privileges de Domain ADMIN(administrateur)
 
-categories: [Active Directory, HacktheBox]
+categories: [HacktheBox]
 tags: [HTB, CTFs, AD]
 image:
     path: https://i.ibb.co/dKGd3Cm/manager.png

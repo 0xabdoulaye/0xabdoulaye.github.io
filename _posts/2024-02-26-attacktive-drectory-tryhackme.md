@@ -1,7 +1,7 @@
 ---
 title: Attacktive Directory - TryHackMe
 date: 2024-02-26 00:00:00 -500
-categories: [Hacking for Beginners, TryHackMe]
+categories: [TryHackMe]
 tags: [AD, THM, Easy, Hacking]
 image:
     path: https://i.ibb.co/Y7hwSFK/tryhackme.png

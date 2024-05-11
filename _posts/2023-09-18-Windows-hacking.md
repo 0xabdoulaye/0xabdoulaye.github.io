@@ -1,7 +1,7 @@
 ---
 title: Windows Hacking for Beginners - Mr Blue
 date: 2023-09-18 00:00:00 -500
-categories: [Hacking for Beginners, Boot2root CTFs]
+categories: [HacktheBox]
 tags: [Boot2root, Windows, CTFs, Hacking]
 image:
     path: https://i.ibb.co/kxVtd1K/eternal.jpg
@@ -12,7 +12,7 @@ Welcome back,fellow Hackers, **to The Hacking Journey**, In this exciting Series
 - **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
-## **Recon Time**: 
+## **Recon Time**:
 During this enumeration phase, we will systematically scan the network for open ports, gather information about their versions, and explore potential vulnerabilities associated with these ports. Join us as we dive deep into the art of reconnaissance.
 
 Basic nmap scan:
@@ -116,7 +116,7 @@ Nmap done: 1 IP address (1 host up) scanned in 2.52 seconds
 ```
 The Nmap scan has revealed that the target system is vulnerable to `CVE-2017-0144`. This revelation serves as a pivotal moment as we move forward into the next stage of our mission: Exploitation.
 
-## **Exploitation Time**: 
+## **Exploitation Time**:
 During this Exploitation phase, we'll harness the power of the detected vulnerability (CVE-2017-0144) to gain unauthorized access and control over the target system. Our first step in this journey is to employ the `searchsploit` tool to scour for any potential vulnerabilities, setting the stage for our exploration into system compromise.
 
 ```terminal

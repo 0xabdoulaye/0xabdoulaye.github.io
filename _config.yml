@@ -53,7 +53,7 @@ plugins:
   - jekyll_plugin_logger
   - html-proofer
   - jekyll_google_translate
-
+  
 
 google_site_verification: # fill in to your verification string
 
