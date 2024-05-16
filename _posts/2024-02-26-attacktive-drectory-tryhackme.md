@@ -10,7 +10,7 @@ image:
 Hi, aujourd'hui je vais partager mes notes avec la Box `AttacktiveDirectory` sur TryHackMe, qui m'a donne plein de connaissance de bases dans l'exploitation d'un Active Directory.
 
 
-- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz6xj5g)**.
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 

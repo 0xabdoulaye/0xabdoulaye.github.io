@@ -9,7 +9,7 @@ image:
 
 Hello g33ks, In this blog, I will guide you through the steps to solve the ***Broker*** machine on HacktheBox, part of the **Retired** labs on HacktheBox. This machine has been classified `Free` and **Easy** making it an ideal choice for beginners looking to embark on their journey into the exciting world of ethical hacking.
 
-- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz6xj5g)**.
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 ## Enumeration(Recon)

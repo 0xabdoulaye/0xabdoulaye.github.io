@@ -12,7 +12,7 @@ Bonsoir encore, je vais vous presentez mon writeup sur l'exploitation d'une Mach
 
 - Arctic est assez simple, mais les temps de chargement du serveur web posent quelques problèmes d'exploitation. Un dépannage de base est nécessaire pour que l'exploit fonctionne correctement.
 
-- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz6xj5g)**.
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 

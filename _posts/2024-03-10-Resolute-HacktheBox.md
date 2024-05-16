@@ -1,7 +1,7 @@
 ---
 title: Resolute - HacktheBox(Medium)
 date: 2024-03-10 00:00:00 -500
-description: Resolute est une machine Windows de Niveau Medium et est dotée d’Active Directory. Pour avoir l'acces initial, je trouve un utilisateur anonyme qui a acces au SMB. Grace a cela je reussi a avoir un mot de passe d'un utilisateur avec lequel je fais du PasswordSpraying pour avoir son vrai utilisateur. Dans ce writeup je te presente mon walkthrough sur cet machine Active Directory.
+description: Resolute est une machine Windows de Niveau Medium et est dotée d'Active Directory. Un utilisateur anonyme Active Directory est utilisé pour obtenir un mot de passe que les administrateurs définissent pour les nouveaux comptes d'utilisateurs, bien qu'il semble que le mot de passe de ce compte ait changé depuis. Une recherche de mot de passe révèle que ce mot de passe est toujours utilisé pour un autre compte d'utilisateur du domaine, ce qui nous permet d'accéder au système via WinRM. Un journal de transcription PowerShell est découvert, qui a capturé les informations d'identification transmises sur la ligne de commande. Cela permet de se déplacer latéralement vers un utilisateur membre du `groupe DnsAdmins`. Ce groupe a la possibilité de spécifier que le service DNS Server charge un plugin DLL. Après avoir redémarré le service DNS, nous parvenons à exécuter une commande sur le contrôleur de domaine dans le contexte `NT_AUTHORITY\SYSTEM`.
 categories: [HacktheBox]
 tags: [DNSadmin, HTB, Medium, Hacking]
 image:
@@ -9,11 +9,9 @@ image:
 ---
 
 Dans cet article, je vais presenter mon writeup sur la Box Resolute de HacktheBox, qui est vraiment une machine de Active Directory tres fascinant.
-## Description
-Resolute est une machine Windows de Niveau Medium et est dotée d'Active Directory. Un utilisateur anonyme Active Directory est utilisé pour obtenir un mot de passe que les administrateurs définissent pour les nouveaux comptes d'utilisateurs, bien qu'il semble que le mot de passe de ce compte ait changé depuis. Une recherche de mot de passe révèle que ce mot de passe est toujours utilisé pour un autre compte d'utilisateur du domaine, ce qui nous permet d'accéder au système via WinRM. Un journal de transcription PowerShell est découvert, qui a capturé les informations d'identification transmises sur la ligne de commande. Cela permet de se déplacer latéralement vers un utilisateur membre du `groupe DnsAdmins`. Ce groupe a la possibilité de spécifier que le service DNS Server charge un plugin DLL. Après avoir redémarré le service DNS, nous parvenons à exécuter une commande sur le contrôleur de domaine dans le contexte `NT_AUTHORITY\SYSTEM`.
 
 
-- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz6xj5g)**.
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 

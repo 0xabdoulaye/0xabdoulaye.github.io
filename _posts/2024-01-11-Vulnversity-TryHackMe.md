@@ -10,7 +10,7 @@ image:
 
 Hello, in this artciles i will share with you my notes for the room *Vulnversity* on TryHackMe. So for the explanation I'll keep it short and sweet.
 
-- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz6xj5g)**.
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 ## Recon

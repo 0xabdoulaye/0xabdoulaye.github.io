@@ -9,7 +9,7 @@ image:
 
 Imagine You are conducting a WIFI pentest, Handshake has been captured and your task is to crack it.  In this blog, I'll guide you through the process of cracking a WiFi handshake password using the powerful tool known as `Hashcat` Learn the ropes of ethical hacking and elevate your skills to become a **Hashcat Master**.
 
-- **The Best Academy to Learn Hacking is [Here](https://affiliate.hackthebox.com/nenandjabhata)**.
+- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz6xj5g)**.
 - **Beginner Friendly challenges on TryHackMe [Here](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**.
 
 ## WPA Crack Challenge.
