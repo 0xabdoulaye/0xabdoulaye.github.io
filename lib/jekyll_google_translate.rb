@@ -1,4 +1,5 @@
 require 'jekyll'
+require 'jekyll_plugin_helper'  # if it's an external library
 require 'jekyll_plugin_logger'
 require 'jekyll_plugin_support'
 
