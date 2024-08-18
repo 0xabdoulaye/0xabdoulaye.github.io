@@ -6,7 +6,7 @@ source "https://rubygems.org"
 
 gem 'jekyll-theme-chirpy', '~> 6.4', '>= 6.4.1'
 gem "html-proofer"
-gem 'jekyll_google_translate', path: '../'
+gem 'jekyll_plugin_logger'
 
 
 
