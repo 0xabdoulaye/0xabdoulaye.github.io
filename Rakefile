@@ -15,7 +15,7 @@ namespace :draft do
       file.puts "title: #{@name}"
       file.puts "date: #{current_date}"
       file.puts "description: maximum 155 char description"
-      file.puts "categories: [Hacking for Beginners]"
+      file.puts "categories: [HacktheBox]"
       file.puts "tags: [HTB, CTFs, Hacking]"
       file.puts "image:
     path:"
@@ -26,16 +26,17 @@ namespace :draft do
 - **[Beginner Friendly challenges on TryHackMe](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**."
     file.puts ""
     file.puts ""
-    file.puts "## Reconnaissance"
+    file.puts '<h2 style="color: orange;">Reconnaissance</h2>'
     file.puts ""
     file.puts ""
-    file.puts "## Privilege Escalation"
+    file.puts '<h2 style="color: orange;">Privilege Escalation</h2>'
     file.puts ""
     file.puts ""
-    file.puts "## Ressources supplementaires"
+    file.puts '<h2 style="color: orange;">Ressources supplementaires</h2>'
     file.puts "Voici quelques ressources supplémentaires qui pourraient vous être utiles :"
-    file.puts "[]()"
-    file.puts "[]()"
+    file.puts "- []()"
+    file.puts "- []()"
+    file.puts "- **Love my artciles?** Follow me on [Twitter](https://x.com/@bloman19) and [Github](https://github.com/0xabdoulaye"
     file.puts "- [Join Us on Discord](https://discord.gg/wBT9wr9ruG)."
     end
   end

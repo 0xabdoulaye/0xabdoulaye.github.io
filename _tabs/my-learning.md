@@ -22,3 +22,9 @@ order: 1
 
 
 
+
+<h2 align="center" style="color: orange;">Windows Labs</h2>
+
+| <span style="color: orangered;">Machines</span> | <span style="color: white;">Difficulty</span> |                                                <span style="color: white;">Tags</span>                  | <span style="color: orange;"> Platform</span>                            | Status | 
+|:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|:---------:|
+| [<strong style="color: indianred;">Netmon</strong>](https://0xabdoulaye.github.io/posts/netmon/)        |    Easy    |                 <span style="color: white;">PRTG, FTP, Shell(PrivEsc)</span>                                                            | <strong style="color: orangered;">HacktheBox</strong> |    ![](https://geps.dev/progress/100)     |
