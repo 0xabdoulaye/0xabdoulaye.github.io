@@ -21,7 +21,7 @@ order: 1
 |  <strong style="color: indianred;">FriendZone</strong>          |    Easy    |    <span style="color: white;">Samba, RFI, Cron(PrivEsc) </span>                                                                    | <strong style="color: orangered;">HacktheBox</strong>    |    COMPLETED     |
 |  <strong style="color: indianred;">Sau</strong>          |    Easy    |    <span style="color: white;">SSRF, CVE, Sudo </span>                                                                    | <strong style="color: orangered;">HacktheBox</strong>    |    COMPLETED     |
 |  <strong style="color: indianred;">GoodGames</strong>          |    Easy    |    <span style="color: white;">SQLi, SSTI, Pivot,Docker </span>                                                                    | <strong style="color: orangered;">HacktheBox</strong>    |    COMPLETED     |
-|  <strong style="color: indianred;">Devvortex</strong>          |    Easy    |    <span style="color: white;">Joomla(CVE-2023-23752), PasswordCraking, apport-cli(PrivEsc) </span>                                                                    | <strong style="color: orangered;">HacktheBox</strong>    |    COMPLETED     |  
+|  <strong style="color: indianred;">Devvortex</strong>          |    Easy    |    <span style="color: white;">Joomla(CVE-2023-23752), PasswdCraking, apport-cli(PrivEsc) </span>                                                                    | <strong style="color: orangered;">HacktheBox</strong>    |    COMPLETED     |  
 
 
 
