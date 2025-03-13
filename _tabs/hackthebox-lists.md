@@ -23,7 +23,7 @@ order: 1
 | **Sizzle** 	| WINDOWS AD 	| _Insane_ 	| En Cours... 	|
 | **Forest** 	| WINDOWS AD 	| _Easy_ 	| Done ✔️ 	|
 | **Resolute** 	| WINDOWS AD 	| _Medium_ 	| Done ✔️ 	|
-| **Monteverde** 	| WINDOWS AD 	| _Medium_ 	| En Cours... 	|
+| **Monteverde** 	| WINDOWS AD 	| _Medium_ 	| En Cours... 	
 | **Sauna** 	| WINDOWS AD 	| _Easy_ 	| Done ✔️ 	|
 | **Multimaster** 	| WINDOWS AD 	| _Insane_ 	| En Cours... 	|
 | **Cascade** 	| WINDOWS AD 	| _Medium_ 	| En Cours... 	|
