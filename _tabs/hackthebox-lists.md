@@ -6,7 +6,7 @@ order: 1
 
 <div style="text-align: center; font-size: 40px;">
   <img src="https://i.ibb.co/4nqKzbkW/Hackthebox-cube.png" alt="HackTheBox Logo" width="30" style="vertical-align: middle;">
-  HacktheBox Machines
+  HacktheBox Machines 
 </div>
 
 
