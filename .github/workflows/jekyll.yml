@@ -1,3 +1,19 @@
+name: Deploy Jekyll site to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -27,20 +43,6 @@ jobs:
           ruby -v
 
       - name: Install Bundler
-        run: gem install bundler --user-install  # ✅ Correction ici
-
-      - name: Install Jekyll Dependencies
-        run: bundle install --path vendor/bundle
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-
-      - name: Build Jekyll Site
-        run: bundle exec jekyll build --baseurl "$BASE_PATH"
-        env:
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
-          JEKYLL_ENV: production
-
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        run: |
+          gem install --user-install bundler
+          echo 'export PATH="$HOME/.gem/ruby/3.0 ▋
