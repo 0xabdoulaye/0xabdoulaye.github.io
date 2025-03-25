@@ -77,5 +77,5 @@ Quelques minutes plus tard, la cible a ouvert le document, ce qui a déclenché 
 Voici quelques ressources supplémentaires qui pourraient vous être utiles :
 - [Rapid7 Macro](https://www.rapid7.com/db/modules/exploit/multi/fileformat/office_word_macro/)
 - [Medium](https://medium.com/@calvintconnor/how-to-make-a-reverse-shell-with-microsoft-word-macros-94797534ffb3)
-- **Love my artciles?** Follow me on [Twitter](https://x.com/@bloman19) and [Github](https://github.com/0xabdoulaye
+- **Love my artciles?** Follow me on [Twitter](https://x.com/@bloman19) and [Github](https://github.com/0xabdoulaye)
 - [Join Us on Discord](https://discord.gg/wBT9wr9ruG).
