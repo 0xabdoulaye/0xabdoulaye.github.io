@@ -52,7 +52,7 @@ C:\Windows\system32>
 
 J’ai généré un payload avec `msfvenom` en utilisant le `windows/x64/shell_reverse_tcp`, qui est compatible avec **Windows 10 x64**. J’ai spécifié mon `LHOST` comme `tun0` (mon IP sur le réseau VPN de TryHackMe, ici `10.6.8.193`) et le `LPORT` comme `1337`. Le fichier généré, `hack.exe`, fait `7168` bytes.
 
-Ensuite, j’ai configuré un listener avec `netcat` en utilisant `sudo rlwrap nc -lnvp 1337` pour recevoir la connexion reverse shell. Après avoir exécuté `hack.exe` sur la machine cible (une machine **Windows 10 x64** fournie par le challenge), j’ai reçu une connexion sur mon listener. La commande `whoami` a confirmé que j’avais un shell avec les privilèges de l’utilisateur `fisher\administrator`, ce qui signifie un accès administrateur.
+Ensuite, j’ai configuré un listener avec `netcat` en utilisant `sudo rlwrap nc -lnvp 1337` pour recevoir la connexion reverse shell. Après avoir exécuté `hack.exe` sur la machine cible (une machine **Windows 10 x64** fournie par le challenge), j’ai reçu une connexion sur mon listener. La commande `whoami` a confirmé que j’avais un shell avec les privilèges de l’utilisateur `fisher\administrator`, ce qui signifie qu'on a un accès administrateur.
 
 
 
