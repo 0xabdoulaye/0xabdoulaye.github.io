@@ -56,8 +56,6 @@ Ensuite, j’ai configuré un listener avec `netcat` en utilisant `sudo rlwrap n
 
 
 
-
-
 ![Hacked](https://i.ibb.co/0yKwv6m6/hacked.png)
 
 
