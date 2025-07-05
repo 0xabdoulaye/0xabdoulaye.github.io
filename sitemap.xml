@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://0xabdoulaye.github.io/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/machines/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/all-posts/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/portfolio/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/cheatsheet/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/shadow-phishing2/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/shadow-phishing/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/ghost-phishing/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/netmon/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/publisher-tryhackme/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/password-cracking/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/alwaysinstallelevated/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/vulnet-internal-tryhackme/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/active-hackthebox/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/page2/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/page3/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/page4/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/hacking/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/ctfs/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/htb/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/thm/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/easy/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/linux/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/bandit/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/ad/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/web/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/windows/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/echoctf/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/hackthebox/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/jeopardy/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/local/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/overthewire/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/pwntilldawn/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/redteam/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/rootme/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/categories/tryhackme/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/anthem-tryhackme/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/codify-htb/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/lame-htb/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/manager-htb/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/picoctf-2024/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Resolute-HacktheBox/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Arctic-HacktheBox/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/attacktive-drectory-tryhackme/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/hacking-dc1/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Vulnversity-TryHackMe/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/cracking-wifi/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/broker-htb/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/overthewire-bandit14-15/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/stuntman-mike-on-pwntilldawn/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Dancing-HacktheBox/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/spring4shell-hacking/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Wakanda-Ciphers/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Windows-hacking/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/overthewire-bandit11-15/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/hacking-ftp-server/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/overthewire-bandit6-10/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Ressources-for-hackers/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/posts/Bandit0-5/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/0day/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/av/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/beginners/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/boot2root/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/cipher/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/cracking/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/crypto/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/cve/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/dnsadmin/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/ftp/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/hashcat/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/jeopardy/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/learn/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/macro/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/medium/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/msfconsole/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/nmap/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/picoctf/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/pwtd/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/sudo/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/vm2/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/tags/word/</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/cheatsheet/evasion</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/cheatsheet/active-directory</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/cheatsheet/enumeration</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/cheatsheet/lateral-movement</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://0xabdoulaye.github.io/cheatsheet/privilege-escalation</loc>
+  <lastmod>2025-07-05T13:30:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
