@@ -12,10 +12,14 @@ layout: page
 <nav id="toc" style="margin: 2rem auto; max-width: 900px;">
   <h2>Table des matières</h2>
   <ul>
-    {% assign sorted_cheatsheets = site.cheatsheets | sort: "title" %}
-    {% for cheatsheet in sorted_cheatsheets %}
-    <li><a href="{{ cheatsheet.url }}">{{ cheatsheet.title }}</a></li>
-    {% endfor %}
+    {% if site.cheatsheets %}
+      {% assign sorted_cheatsheets = site.cheatsheets | sort: "title" %}
+      {% for cheatsheet in sorted_cheatsheets %}
+        <li><a href="{{ cheatsheet.url }}">{{ cheatsheet.title }}</a></li>
+      {% endfor %}
+    {% else %}
+      <li>Aucune fiche disponible.</li>
+    {% endif %}
   </ul>
 </nav>
 

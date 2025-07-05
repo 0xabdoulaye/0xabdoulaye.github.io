@@ -52,7 +52,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll_plugin_logger
   - html-proofer
-  
 
 google_site_verification: # fill in to your verification string
 
@@ -142,6 +141,14 @@ collections:
   tabs:
     output: true
     sort_by: order
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+  cheatsheets:
+    output: true
+    permalink: /cheatsheet/:name
 
 defaults:
   - scope:
