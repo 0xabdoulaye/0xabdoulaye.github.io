@@ -1,0 +1,107 @@
+- name: "TombWatcher"
+  os: "Windows AD"
+  difficulty: "Medium"
+  skills: [enumeration, ADCS, PowerView]
+  platform: "HackTheBox"
+  tasks:
+    - description: Rooted
+      link: /machines
+      completed: true
+
+
+- name: "Forest"
+  os: "Windows AD"
+  difficulty: "Easy"
+  skills: [enumeration, RID bruteforce, Kerberoasting]
+  platform: "HackTheBox"
+  tasks:
+    - description: Rooted
+      link: /machines
+      completed: true
+
+
+- name: "AD101"
+  os: "Windows AD"
+  difficulty: "Easy"
+  skills: [enumeration, RID bruteforce, Pivoting]
+  platform: "SecDojo"
+  tasks:
+    - description: Rooted the Workstation Machine, now the DC Left
+      link: /machines
+      completed: true
+
+
+- name: "Cicada"
+  os: "Windows AD"
+  difficulty: "Easy"
+  skills: [enumeration, Password Sprayig, Ldap enumeration]
+  platform: "HackTheBox"
+  tasks:
+    - description: Rooted
+      link: /machines
+      completed: true
+
+- name: "Cactifall"
+  os: "Linux"
+  difficulty: "Easy"
+  skills: [CVE-2024-25641]
+  platform: "SecDojo"
+  tasks:
+    - description: Exploit CVE-2024-25641, a vulnerability in Cacti versions before 1.2.27, allowing authenticated users to execute arbitrary PHP code on the web server through a file write flaw.
+      link: /machines
+      completed: true
+
+- name: "Dog"
+  os: "Linux"
+  difficulty: "Easy"
+  skills: []
+  platform: "HackTheBox"
+  tasks:
+    - description: Compléter l’énumération initiale
+      link: /machines/#dog
+      completed: false
+    - description: Exploiter la vulnérabilité principale
+      link: /machines/#dog
+      completed: false
+
+- name: "Checker"
+  os: "Linux"
+  difficulty: "Hard"
+  skills: [AV evasion, Web Exploitation, Reverse Shells]
+  platform: "HackTheBox"
+  tasks:
+    - description: Analyser le service web
+      link: /machines/#checker
+      completed: false
+    - description: Obtenir un reverse shell
+      link: /machines/#checker
+      completed: false
+
+- name: "Shadow Phishing 2"
+  os: "Windows"
+  difficulty: "Hard"
+  skills: 
+    - AV Bypass
+    - Evasion
+    - Windows Defender
+    - Windows Reverse Shells
+  platform: "TryHackMe"
+  writeup: "/posts/shadow-phishing2"
+  tasks:
+    - description: Finaliser le write-up
+      link: /posts/shadow-phishing2
+      completed: false
+
+- name: "Apprentissage"
+  os: "N/A"
+  difficulty: "N/A"
+  skills: []
+  platform: "N/A"
+  tasks:
+    - description: Étudier les techniques de contournement AMSI
+      link: /cheatsheet/evasion-antivirus/
+      completed: true
+    - description: Lire le guide de préparation OSCP
+      link: null
+      completed: true
+# ... autres machines
