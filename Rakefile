@@ -22,7 +22,7 @@ namespace :draft do
       file.puts "---"
       file.puts ""
       file.puts ""
-      file.puts "- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz6xj5g)**.
+      file.puts "- **[The Best Academy to Learn Hacking](https://referral.hackthebox.com/mz8xf4h)**.
 - **[Beginner Friendly challenges on TryHackMe](https://tryhackme.com/signup?referrer=61e8a27ddd3f3b00496505d1)**."
     file.puts ""
     file.puts ""
